@@ -1,0 +1,18 @@
+{
+  "projectCards": [
+    {
+      "imgUrl": "lucky-barber.png",
+      "title": "Lucky barber",
+      "tech": "React.js / JQuery",
+      "desc": "Barber website | e-card",
+      "link": "http://www.lucky-barber.com/"
+    },
+    {
+      "imgUrl": "sparwelt.png",
+      "title": "Sparwelt",
+      "tech": "Symfony / JQuery / Less",
+      "desc": "Coupons e-shop | © Sparwelt GmbH",
+      "link": "https://www.sparwelt.de/"
+    }
+  ]
+}
