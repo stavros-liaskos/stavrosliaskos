@@ -25,10 +25,10 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 - `archive` is used to store initial assets(before processing)
 
 ## Images
-Images are cropped using image magic: `convert archive/original.png -gravity center -resize 350x240\^ -crop 350x240+0+0 +repage static/converted.png`  
-and compressed using TinyPng (https://tinypng.com/).   
-Original images are stored at `/archive` for future use and the production ones under `/static` because of:
-https://nuxtjs.org/guide/assets#static
+Images are cropped using image magic:    
+`convert archive/original.png -gravity center -resize 350x240\^ -crop 350x240+0+0 +repage static/converted.png`  
+and compressed using [TinyPng](https://tinypng.com/).   
+Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
 ## Heroku
 [Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)
@@ -71,11 +71,11 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - fix heroku
 
 ### Pages
-/
-/about
-/contact
-/privacy-policy
-/404
+/   
+/about   
+/contact   
+/privacy-policy   
+/404   
 
 ### Ranking
 Google Audits:
