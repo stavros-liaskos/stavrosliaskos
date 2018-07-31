@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Stavros Liaskos -- Frontend Developer -- hello@stavrosliaskos.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, Nuxt, SCSS, ES6, Normalize.css
