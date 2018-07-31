@@ -31,7 +31,26 @@ and compressed using [TinyPng](https://tinypng.com/).
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
 ## Heroku
-[Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)
+[How to Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)  
+[Visit Heroku App](https://quiet-badlands-50537.herokuapp.com/)
+
+##### Heroku CLI SHORTCUTS
+
+Login: enter with your credentials in CLI
+```bash
+heroku login
+```
+Tail logs
+```bash
+heroku logs --tail
+```
+Update Heroku app
+
+```bash
+git add .
+git commit -m "update"
+git push heroku master
+```
 
 ## Useful Links
 - [Nuxt layouts](https://www.youtube.com/watch?v=YOKnSTp7d38)  
@@ -67,7 +86,6 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - horizontal list and scrolling project cards in device mode 
 - humans.txt
 - 404 page
-- fix heroku
 
 ### Pages
 /   
