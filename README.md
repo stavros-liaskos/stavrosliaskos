@@ -1,6 +1,6 @@
 # stavrosliaskos.com
 https://stavrosliaskos.com/
-> My Nuxt.js based website
+> My Nuxt.js based developer website
 
 ## Build Setup
 
@@ -40,7 +40,6 @@ Original images are stored at `/archive` for future use and the production ones 
 ## TODO
 - [decrease font and icons file size](http://fontello.com/)
 - fade in to improve user's speed perspective
-- upload site to: https://madewithvuejs.com/submit
 - contact section and form (connect to BE)  
 - use srcset for RW images (fix device bug: project card images not centered)
 - hover vs click effect at project cards on device mode?

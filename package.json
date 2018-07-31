@@ -15,11 +15,16 @@
     "precommit": "yarn lint",
     "heroku-postbuild": "npm run build"
   },
+  "engines": {
+    "yarn": "1.7.0",
+    "node": "9.10.1"
+  },
   "dependencies": {
     "breakpoint-sass": "^2.7.1",
     "fontfaceobserver": "^2.0.13",
     "nuxt": "^1.4.0",
     "vue-lazyload": "^1.2.5",
+    "vue-particles": "^1.0.9",
     "vue-router": "^3.0.1",
     "vue-scrollto": "^2.11.0",
     "vue-typer": "^1.2.0"
@@ -35,7 +40,6 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "vue-particles": "^1.0.9"
+    "sass-loader": "^6.0.6"
   }
 }
