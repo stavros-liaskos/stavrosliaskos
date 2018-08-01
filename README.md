@@ -31,6 +31,9 @@ and compressed using [TinyPng](https://tinypng.com/).
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
 ## Heroku
+
+Heroku is configured to deploy master automatically. However, if you would like to know more about Heroku CLI deployment, keep reading.  
+ 
 [How to Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)  
 [Visit Heroku App](https://quiet-badlands-50537.herokuapp.com/)
 
