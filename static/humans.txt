@@ -1,10 +1,8 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* TEAM */
+Your title: Stavros Liaskos
+Site: hello@stavrosliaskos.com
+Location: Berlin, Germany
 
-# TEAM
-
-    Stavros Liaskos -- Frontend Developer -- hello@stavrosliaskos.com
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, Nuxt, SCSS, ES6, Normalize.css
+/* SITE */
+Last update: 2017/05/22
+Software: Nuxt, FontAwesome, HTML5, SCSS, JS ES6

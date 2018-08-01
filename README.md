@@ -82,19 +82,18 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - logo in device mode: hide letters and pull svg to left
 - remove stavrosliaskos.com from footer
 - include social links in device mode in contact section
-- disable left-right scroll in iphone
+- disable horizontal scrolling in iphone
 - horizontal list and scrolling project cards in device mode 
-- humans.txt
-- 404 page
+- 404 page doesn't work on production
 
-### Pages
+## Pages
 /   
 /about   
 /contact   
 /privacy-policy   
 /404   
 
-### Ranking
+## Ranking
 Google Audits:
 > Mobile
 > - 99 Performance 
@@ -120,3 +119,7 @@ Google Audits:
 
 [mobile friendly test](https://search.google.com/test/mobile-friendly): passed  
 
+
+## License
+
+The code is available under the [MIT license](LICENSE.txt).
