@@ -16,7 +16,7 @@
       <a href="https://antoni.de/" target="_blank">antoni GmbH.</a> as a Front-end developer. While I still enjoyed it,
       I decided to move on to to face new challenges. Right now I am working at
       <a href="https://www.sparwelt.de/" target="_blank">Sparwelt GmbH</a> (ein Unternehmen der Mediengruppe RTL
-      Deutschland) as Frond-end developer.</p>
+      Deutschland) as Frondend developer.</p>
 
     <p>I love developing performable websites using state of art technologies, focusing on web performance, minimalism
       and user experience.</p>
