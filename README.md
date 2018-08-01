@@ -1,6 +1,6 @@
 # stavrosliaskos.com
 https://stavrosliaskos.com/
-> My Nuxt.js based website
+> My Nuxt.js based developer website
 
 ## Build Setup
 
@@ -31,7 +31,26 @@ and compressed using [TinyPng](https://tinypng.com/).
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
 ## Heroku
-[Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)
+[How to Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)  
+[Visit Heroku App](https://quiet-badlands-50537.herokuapp.com/)
+
+##### Heroku CLI SHORTCUTS
+
+Login: enter with your credentials in CLI
+```bash
+heroku login
+```
+Tail logs
+```bash
+heroku logs --tail
+```
+Update Heroku app
+
+```bash
+git add .
+git commit -m "update"
+git push heroku master
+```
 
 ## Useful Links
 - [Nuxt layouts](https://www.youtube.com/watch?v=YOKnSTp7d38)  
@@ -40,7 +59,6 @@ Original images are stored at `/archive` for future use and the production ones 
 ## TODO
 - [decrease font and icons file size](http://fontello.com/)
 - fade in to improve user's speed perspective
-- upload site to: https://madewithvuejs.com/submit
 - contact section and form (connect to BE)  
 - use srcset for RW images (fix device bug: project card images not centered)
 - hover vs click effect at project cards on device mode?
@@ -64,20 +82,18 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - logo in device mode: hide letters and pull svg to left
 - remove stavrosliaskos.com from footer
 - include social links in device mode in contact section
-- disable left-right scroll in iphone
+- disable horizontal scrolling in iphone
 - horizontal list and scrolling project cards in device mode 
-- humans.txt
-- 404 page
-- fix heroku
+- 404 page doesn't work on production
 
-### Pages
+## Pages
 /   
 /about   
 /contact   
 /privacy-policy   
 /404   
 
-### Ranking
+## Ranking
 Google Audits:
 > Mobile
 > - 99 Performance 
@@ -103,3 +119,7 @@ Google Audits:
 
 [mobile friendly test](https://search.google.com/test/mobile-friendly): passed  
 
+
+## License
+
+The code is available under the [MIT license](LICENSE.txt).
