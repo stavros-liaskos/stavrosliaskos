@@ -4,7 +4,7 @@
 
 > My Nuxt.js based developer website
 
-https://stavrosliaskos.com/
+[![Build Status](https://travis-ci.org/stavros-liaskos/stavrosliaskos.svg?branch=master)](https://travis-ci.org/stavros-liaskos/stavrosliaskos)
 
 ## Build Setup
 
