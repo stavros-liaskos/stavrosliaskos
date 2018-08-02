@@ -1,6 +1,14 @@
-# stavrosliaskos.com
-https://stavrosliaskos.com/
+<h1 align="center">
+	<br>
+	<img width="400" src="media/doc_logo.png" alt="stavrosliaskos">
+	<br>
+	<br>
+	<br>
+</h1>
+
 > My Nuxt.js based developer website
+
+https://stavrosliaskos.com/
 
 ## Build Setup
 
@@ -88,6 +96,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - disable horizontal scrolling in iphone
 - horizontal list and scrolling project cards in device mode 
 - 404 page doesn't work on production
+- [increase code coverage (add widget in Readme)](https://nuxtjs.org/examples/testing/)
 
 ## Pages
 /   
