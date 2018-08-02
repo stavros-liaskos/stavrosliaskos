@@ -8,12 +8,12 @@
 
     <br>
     <p>In the spring of 2009, during my second year at University of Crete, I took a web design course
-      where we were assigned the task of building both the Front-end and the Back-end of an e-shop. Thus began my love
+      where we were assigned the task of building both the Frontend and the Backend of an e-shop. Thus began my love
       affair with web development. After Erasmus studies, graduating and serving in the army (obligatory), I relocated
       in Berlin and been living here for the last {{calcTimeInBerlin}}.
     </p>
     <p>At first I was working full time for
-      <a href="https://antoni.de/" target="_blank">antoni GmbH.</a> as a Front-end developer. While I still enjoyed it,
+      <a href="https://antoni.de/" target="_blank">antoni GmbH.</a> as a Frontend developer. While I still enjoyed it,
       I decided to move on to to face new challenges. Right now I am working at
       <a href="https://www.sparwelt.de/" target="_blank">Sparwelt GmbH</a> (ein Unternehmen der Mediengruppe RTL
       Deutschland) as Frondend developer.</p>

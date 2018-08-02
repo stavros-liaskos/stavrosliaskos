@@ -1,6 +1,10 @@
-# stavrosliaskos.com
-https://stavrosliaskos.com/
+<h1 align="center">
+	<img width="800" src="media/doc_logo.png" alt="stavrosliaskos">
+</h1>
+
 > My Nuxt.js based developer website
+
+https://stavrosliaskos.com/
 
 ## Build Setup
 
@@ -18,6 +22,21 @@ $ yarn start
 # generate static project (used at production server)
 $ yarn generate
 ```
+Or if you prefer npm:
+``` bash
+# install dependencies
+$ npm i
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project (used at production server)
+$ npm run generate
+```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
@@ -31,6 +50,9 @@ and compressed using [TinyPng](https://tinypng.com/).
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
 ## Heroku
+
+Heroku is configured to deploy master automatically. However, if you would like to know more about Heroku CLI deployment, keep reading.  
+ 
 [How to Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)  
 [Visit Heroku App](https://quiet-badlands-50537.herokuapp.com/)
 
@@ -85,6 +107,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - disable horizontal scrolling in iphone
 - horizontal list and scrolling project cards in device mode 
 - 404 page doesn't work on production
+- [increase code coverage (add widget in Readme)](https://nuxtjs.org/examples/testing/)
 
 ## Pages
 /   
