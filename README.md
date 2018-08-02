@@ -1,9 +1,5 @@
 <h1 align="center">
-	<br>
-	<img width="400" src="media/doc_logo.png" alt="stavrosliaskos">
-	<br>
-	<br>
-	<br>
+	<img width="800" src="media/doc_logo.png" alt="stavrosliaskos">
 </h1>
 
 > My Nuxt.js based developer website
