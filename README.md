@@ -145,4 +145,4 @@ Google Audits:
 
 ## License
 
-The code is available under the [MIT license](LICENSE.txt).
+The code is available under the [MIT license](LICENSE).
