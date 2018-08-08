@@ -41,49 +41,44 @@
 
     methods: {
       /**
-       * Because I love beer
-       */
-      beerLog() {
-        // console.log('🍺');
-      },
-
-      /**
        * Initialize Navigation Listener for toggling state of Burger, Navigation, app elements
        */
       initNavigationListener() {
         this.$root.$on('toggle.navigation.state', (isNaviOpen) => {
           this.isNavOpen = !isNaviOpen;
         });
+      },
+
+      fontFaceLoader() {
+        // Font loading: https://github.com/zeit/next.js/issues/512
+        const robotoUrl = 'https://fonts.googleapis.com/css?family=Roboto+Mono',
+          fontAwesomeUrl = 'https://use.fontawesome.com/releases/v5.0.6/css/all.css';
+
+        let linkRoboto = document.createElement('link'),
+          linkFontAwesome = document.createElement('link'),
+          roboto = new FontFaceObserver('Roboto'),
+          fontAwesome = new FontFaceObserver('FontAwesome');
+
+        linkRoboto.href = robotoUrl;
+        linkRoboto.rel = 'stylesheet';
+        linkFontAwesome.href = fontAwesomeUrl;
+        linkFontAwesome.rel = 'stylesheet';
+
+        document.head.appendChild(linkRoboto);
+        document.head.appendChild(linkFontAwesome);
+
+        // roboto.load().then(() => {
+        Promise.all([roboto.load(), fontAwesome.load()]).then(function () {
+          document.documentElement.classList.add('roboto');
+        }, function () {
+          console.log('🍺');
+        });
       }
     },
 
     mounted() {
-      this.beerLog();
       this.initNavigationListener();
-
-      // Font loading: https://github.com/zeit/next.js/issues/512
-      const robotoUrl = 'https://fonts.googleapis.com/css?family=Roboto+Mono',
-        fontAwesomeUrl = 'https://use.fontawesome.com/releases/v5.0.6/css/all.css';
-
-      let linkRoboto = document.createElement('link'),
-        linkFontAwesome = document.createElement('link'),
-        roboto = new FontFaceObserver('Roboto'),
-        fontAwesome = new FontFaceObserver('FontAwesome');
-
-      linkRoboto.href = robotoUrl;
-      linkRoboto.rel = 'stylesheet';
-      linkFontAwesome.href = fontAwesomeUrl;
-      linkFontAwesome.rel = 'stylesheet';
-
-      document.head.appendChild(linkRoboto);
-      document.head.appendChild(linkFontAwesome);
-
-      // roboto.load().then(() => {
-      Promise.all([roboto.load(), fontAwesome.load()]).then(function () {
-        document.documentElement.classList.add('roboto');
-      }, function () {
-        console.log('🍺');
-      });
+      this.fontFaceLoader();
     }
   };
 </script>

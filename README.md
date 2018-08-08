@@ -53,7 +53,8 @@ Original images are stored at `/archive` for future use and the production ones 
 Heroku is configured to deploy master automatically. However, if you would like to know more about Heroku CLI deployment, keep reading.  
  
 [How to Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)  
-[Visit Heroku App](https://quiet-badlands-50537.herokuapp.com/)
+[Visit Develop Heroku App](https://develop-stavrosliaskos.herokuapp.com/)
+[Visit Production Heroku App](https://production-stavrosliaskos.herokuapp.com/)
 
 ##### Heroku CLI SHORTCUTS
 
@@ -83,14 +84,11 @@ git push heroku master
 - contact section and form (connect to BE)  
 - use srcset for RW images (fix device bug: project card images not centered)
 - hover vs click effect at project cards on device mode? [this hack to the resque?!](https://codepen.io/MartijnCuppens/pen/GZWgaQ?editors=1100)
-- vue v2 upgrade
 - sitemap: https://www.screamingfrog.co.uk/seo-spider/ https://statcounter.com/insights/seo/sitemap-example,    
 https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-portfolio
 - create plugin for FontFaceObserver and fix false negative error in promise
 - fix safari bugs for flip animations and replace current workaround
 - [implement router link if it makes sense...](https://router.vuejs.org/en/api/router-link.html)
-- [replace extends with placeholders](http://thesassway.com/intermediate/understanding-placeholder-selectors)
-- move to github and enable gitkeeper
 - fix console errors (typed js) | also slows down a lot "yarn dev"
 - [static html fallback]( https://github.com/nuxt/nuxt.js/issues/2120)
 - add yarn command to generate images and mv to dir
