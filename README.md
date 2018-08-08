@@ -44,9 +44,8 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 - `archive` is used to store initial assets(before processing)
 
 ## Images
-Images are cropped using image magic:    
+Images are cropped using [ImageMagick](https://www.imagemagick.org/script/index.php) and compressed using [TinyPng](https://tinypng.com/).       
 `convert archive/original.png -gravity center -resize 350x240\^ -crop 350x240+0+0 +repage static/converted.png`  
-and compressed using [TinyPng](https://tinypng.com/).   
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
 ## Heroku
@@ -83,7 +82,7 @@ git push heroku master
 - fade in to improve user's speed perspective
 - contact section and form (connect to BE)  
 - use srcset for RW images (fix device bug: project card images not centered)
-- hover vs click effect at project cards on device mode?
+- hover vs click effect at project cards on device mode? [this hack to the resque?!](https://codepen.io/MartijnCuppens/pen/GZWgaQ?editors=1100)
 - vue v2 upgrade
 - sitemap: https://www.screamingfrog.co.uk/seo-spider/ https://statcounter.com/insights/seo/sitemap-example,    
 https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-portfolio
@@ -145,4 +144,4 @@ Google Audits:
 
 ## License
 
-The code is available under the [MIT license](LICENSE.txt).
+The code is available under the [MIT license](LICENSE).
