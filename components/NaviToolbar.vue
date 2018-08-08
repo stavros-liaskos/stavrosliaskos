@@ -12,8 +12,8 @@
 </template>
 
 <script>
-  import Burger from '~/atoms/Burger.vue';
-  import SocialLinks from '~/atoms/SocialLinks.vue';
+  import Burger from '~/components/Burger.vue';
+  import SocialLinks from '~/components/SocialLinks.vue';
   import pack from '~/package.json';
 
   export default {

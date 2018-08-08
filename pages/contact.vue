@@ -21,9 +21,9 @@
 </template>
 
 <script>
-  // import ContactForm from '~/organisms/ContactForm';
-  import HeadlineAnimated from '~/atoms/HeadlineAnimated';
-  import GoHome from '~/atoms/GoHome';
+  // import ContactForm from '~/components/ContactForm';
+  import HeadlineAnimated from '~/components/HeadlineAnimated';
+  import GoHome from '~/components/GoHome';
 
   export default {
     components: {

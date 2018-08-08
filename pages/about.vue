@@ -34,8 +34,8 @@
 </template>
 
 <script>
-  import HeadlineAnimated from '~/atoms/HeadlineAnimated';
-  import GoHome from '~/atoms/GoHome';
+  import HeadlineAnimated from '~/components/HeadlineAnimated';
+  import GoHome from '~/components/GoHome';
 
   export default {
     components: {

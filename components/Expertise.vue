@@ -19,8 +19,8 @@
 </template>
 
 <script>
-  import ExpertiseCard from '~/organisms/ExpertiseCard.vue';
-  import HeadlineAnimated from '~/atoms/HeadlineAnimated';
+  import ExpertiseCard from '~/components/ExpertiseCard.vue';
+  import HeadlineAnimated from '~/components/HeadlineAnimated';
   import {expertiseCards, expetiseMainContent} from '~/assets/data/expertise.json';
 
   export default {

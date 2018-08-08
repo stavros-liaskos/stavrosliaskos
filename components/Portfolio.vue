@@ -19,8 +19,8 @@
 </template>
 
 <script>
-  import HeadlineAnimated from '~/atoms/HeadlineAnimated';
-  import ProjectCard from '~/organisms/ProjectCard.vue';
+  import HeadlineAnimated from '~/components/HeadlineAnimated';
+  import ProjectCard from '~/components/ProjectCard.vue';
   import projectCards from '~/assets/data/projectCards.json';
 
   export default {

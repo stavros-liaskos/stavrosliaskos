@@ -57,7 +57,7 @@
 </template>
 
 <script>
-  import GoHome from '~/atoms/GoHome';
+  import GoHome from '~/components/GoHome';
 
   export default {
     components: {

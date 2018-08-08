@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import DotNaviElem from '~/atoms/DotNaviElem.vue';
+  import DotNaviElem from '~/components/DotNaviElem.vue';
 
   export default {
     components: {
