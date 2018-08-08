@@ -49,12 +49,11 @@ Images are cropped using [ImageMagick](https://www.imagemagick.org/script/index.
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
 ## Heroku
-
-Heroku is configured to deploy master automatically. However, if you would like to know more about Heroku CLI deployment, keep reading.  
- 
-[How to Deploy](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md)  
-[Visit Develop Heroku App](https://develop-stavrosliaskos.herokuapp.com/)
+[Visit Develop Heroku App](https://develop-stavrosliaskos.herokuapp.com/)  
 [Visit Production Heroku App](https://production-stavrosliaskos.herokuapp.com/)
+
+Heroku is configured to deploy master automatically. However, go [here](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md) if you to know more about CLI deployments.
+  
 
 ##### Heroku CLI SHORTCUTS
 
@@ -91,7 +90,6 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - [implement router link if it makes sense...](https://router.vuejs.org/en/api/router-link.html)
 - fix console errors (typed js) | also slows down a lot "yarn dev"
 - [static html fallback]( https://github.com/nuxt/nuxt.js/issues/2120)
-- add yarn command to generate images and mv to dir
 - create favicon
 - what is the vue way to do animationend?
 - improve asides: they must be dynamic and decrease until the next breakpoint (just like in bootstrap)
