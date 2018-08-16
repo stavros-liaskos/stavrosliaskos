@@ -5,18 +5,23 @@
 
     <div class="menu-container">
       <div class="menu-wrapper">
+
+        <div class="">
+          Hover me:
+        </div>
+
         <ul class="menu-list">
 
-          <li class="menu-item flip">
-            <a href="/" class="item-link h1">Home</a>
+          <li class="menu-item">
+            <a href="/" class="item-link h1 flip">Home</a>
           </li>
 
-          <li class="menu-item flip">
-            <a href="/about" class="item-link h1">About</a>
+          <li class="menu-item">
+            <a href="/about" class="item-link h1 flip">About</a>
           </li>
 
-          <li class="menu-item flip">
-            <a href="/contact" class="item-link h1">Contact</a>
+          <li class="menu-item">
+            <a href="/contact" class="item-link h1 flip">Contact</a>
           </li>
         </ul>
       </div>
@@ -55,6 +60,8 @@
 <style lang="scss" scoped>
   @import '../assets/styles';
 
+  $navi_slide_out_time: .8s;
+
   .navigation {
     background: $color_black;
     position: fixed !important; // makes sure that position:relative from .z-2 is overwritten
@@ -62,11 +69,16 @@
     top: -100%;
     left: 0;
     right: 0;
-    transition: top 1s;
+    transition: top $navi_slide_out_time ease-out;
 
     &.active {
       // slide down effect in device
       top: 0;
+
+      .menu-container .menu-wrapper .flip {
+        transform: rotateY(0deg);
+        opacity: 1;
+      }
     }
 
     .item-link {
@@ -81,6 +93,17 @@
 
       .menu-wrapper {
         height: 100%;
+
+        .flip {
+          position: relative;
+          display: inline-block;
+          opacity: 0;
+          backface-visibility: hidden;
+          transform-style: preserve-3d;
+          perspective: 1000px;
+          transform: rotateY(180deg);
+          transition: all .3s linear $navi_slide_out_time;
+        }
 
         .menu-list {
           display: flex;
@@ -103,7 +126,7 @@
       width: 100%;
       left: -100%;
       top: unset;
-      transition: left 1s;
+      transition: left $navi_slide_out_time ease-out;
 
       &.active {
         // slide right effect in device

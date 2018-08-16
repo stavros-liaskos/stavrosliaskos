@@ -40,7 +40,8 @@
   // Burger menu variables
   $burger_menu_width: $space_5;
   $burger_menu_height: 20px;
-  $burger_menu_line_height: 1px;
+  $burger_menu_line_height_device: 1px;
+  $burger_menu_line_height_desktop: 2px;
   $burger-menu-color: $color_white;
 
   .burger-menu {
@@ -85,7 +86,7 @@
         opacity: 0
       }
       .burger-menu-line:nth-child(3) {
-        transform: translateY(-12px) translateX(0) rotate(-45deg)
+        transform: translateY(-10px) translateX(0) rotate(-45deg)
       }
 
       &.hovered {
@@ -100,7 +101,7 @@
       display: block;
       width: 100%;
       background: $burger-menu-color;
-      height: $burger_menu_line_height;
+      height: $burger_menu_line_height_device;
     }
   }
 
@@ -110,6 +111,10 @@
       left: $space_2;
       width: $burger_menu_width;
       height: $burger_menu_height;
+
+      .burger-menu-line {
+        height: $burger_menu_line_height_desktop;
+      }
     }
   }
 </style>

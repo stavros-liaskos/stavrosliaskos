@@ -1,6 +1,6 @@
 {
   "name": "stavrosliaskos",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My Nuxt.js based website",
   "author": "Stavros Liaskos",
   "homepage": "https://stavrosliaskos.com/",
@@ -14,7 +14,8 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "heroku-postbuild": "npm run build",
-    "test": "nyc ava --serial --verbose"
+    "test": "nyc ava --serial --verbose",
+    "image": "bash image_cropper.sh"
   },
   "engines": {
     "yarn": "1.7.0",
