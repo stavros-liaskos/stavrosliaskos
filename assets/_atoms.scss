@@ -431,24 +431,6 @@ $pulse_4: #d8f6e7;
   }
 }
 
-// Flip and fade-in animation (used in navigation elements)
-.flip {
-  transition: all .8s ease .6s;
-  opacity: 0;
-  @-moz-document url-prefix() {
-    transform: rotateY(-90deg);
-  }
-}
-
-.active {
-  .flip {
-    opacity: 1;
-    @-moz-document url-prefix() {
-      transform: rotateY(0deg);
-    }
-  }
-}
-
 // bounce animation
 @keyframes bounce {
   0%, 100% {

@@ -86,7 +86,6 @@ git push heroku master
 - sitemap: https://www.screamingfrog.co.uk/seo-spider/ https://statcounter.com/insights/seo/sitemap-example,    
 https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-portfolio
 - create plugin for FontFaceObserver and fix false negative error in promise
-- fix safari bugs for flip animations and replace current workaround
 - [implement router link if it makes sense...](https://router.vuejs.org/en/api/router-link.html)
 - fix console errors (typed js) | also slows down a lot "yarn dev"
 - [static html fallback]( https://github.com/nuxt/nuxt.js/issues/2120)
