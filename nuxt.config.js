@@ -27,6 +27,27 @@ module.exports = {
   */
   loading: false,
   /*
+ ** Site Map Options
+ */
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://stavrosliaskos.com/',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    // Enable me when using nuxt generate
+    generate: false,
+    exclude: [
+      // empty
+    ],
+    routes: [
+      {url: '/', changefreq: 'daily'},
+      {url: '/about', changefreq: 'daily'},
+      {url: '/contact', changefreq: 'daily'},
+      {url: '/privacy-policy', changefreq: 'daily'},
+      {url: '/terms-and-conditions', changefreq: 'daily'}
+    ]
+  },
+  /*
   ** Build configuration
   */
   build: {
@@ -63,5 +84,12 @@ module.exports = {
     // '@/assets/css/main.css',
     // SCSS file in the project
     '@/assets/styles.scss'
+  ],
+
+  /*
+  ** Customize modules
+  */
+  modules: [
+    '@nuxtjs/sitemap'
   ]
 };
