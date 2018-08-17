@@ -1,6 +1,6 @@
 <template>
   <div class="project-card">
-    <a :href="[link]" target="_blank">
+    <a :href="[link]" target="_blank" rel="noopener noreferrer">
       <div class="img-wrapper">
         <img class="project-card-img" v-lazy="`${imgUrl}`" v-bind:alt="[title]">
       </div>
