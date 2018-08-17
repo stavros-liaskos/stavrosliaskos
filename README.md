@@ -50,7 +50,7 @@ Original images are stored at `/archive` for future use and the production ones 
 
 ## Heroku
 [Visit Develop Heroku App](https://develop-stavrosliaskos.herokuapp.com/)  
-[Visit Staging Heroku App](https://production-stavrosliaskos.herokuapp.com/)
+[Visit Staging Heroku App](https://staging-stavrosliaskos.herokuapp.com/)
 
 Heroku is configured to deploy master automatically. However, go [here](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md) if you to know more about CLI deployments.
   
@@ -83,7 +83,6 @@ git push heroku master
 - contact section and form (connect to BE)  
 - use srcset for RW images (fix device bug: project card images not centered)
 - hover vs click effect at project cards on device mode? [this hack to the resque?!](https://codepen.io/MartijnCuppens/pen/GZWgaQ?editors=1100)
-- sitemap: https://www.screamingfrog.co.uk/seo-spider/ https://statcounter.com/insights/seo/sitemap-example,    
 https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-portfolio
 - create plugin for FontFaceObserver and fix false negative error in promise
 - [implement router link if it makes sense...](https://router.vuejs.org/en/api/router-link.html)
