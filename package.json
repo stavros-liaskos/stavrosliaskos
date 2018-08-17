@@ -1,6 +1,6 @@
 {
   "name": "stavrosliaskos",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "My Nuxt.js based website",
   "author": "Stavros Liaskos",
   "homepage": "https://stavrosliaskos.com/",
@@ -32,6 +32,7 @@
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
+    "@nuxtjs/sitemap": "^0.1.1",
     "ava": "^0.25.0",
     "babel-eslint": "^8.2.6",
     "coveralls": "^3.0.2",
