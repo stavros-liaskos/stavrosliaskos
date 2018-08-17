@@ -10,9 +10,7 @@
       <a href="#" v-scroll-to="'#expertise'" class="scroll-promt">
         Learn more about what I do<br>
       </a>
-      <a href="#" v-scroll-to="'#expertise'">
-        <i class="p-2 fas fa-arrow-down bounce h4"></i>
-      </a>
+      <a href="#" v-scroll-to="'#expertise'" class="dis-txt p-2 fas fa-arrow-down bounce h4"></a>
     </div>
   </div>
 </template>
