@@ -12,3 +12,6 @@ dist
 
 # Coverage
 .nyc_output
+
+# Ignore yarn.lock to avoid breaking Travis
+yarn.lock
