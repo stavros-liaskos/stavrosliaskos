@@ -625,13 +625,14 @@ $pulse_4: #d8f6e7;
   border-bottom: dashed $color_light_grey;
 }
 
-/* TODO see if it's worth it using this class across the project. Note: breakpoints!
-.float-left {
-  float: left;
-}
+// Links must have discernible text fix
+.dis-txt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: -9999px;
 
-.float-right {
-  float: right;
+  &:before {
+    float: left;
+    text-indent: 0;
+  }
 }
-@include breakpoint($breakpoint_screen_md) {
-}*/

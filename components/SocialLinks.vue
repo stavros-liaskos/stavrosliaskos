@@ -1,24 +1,40 @@
 <template>
   <div class="social-links">
     <ul>
-      <li><a href="https://github.com/stavros-liaskos" target="_blank" rel="noreferrer">
-        <i class="fab fa-github"></i>
-      </a></li>
-      <li><a href="https://bitbucket.org/stavros_liaskos/" target="_blank" rel="noreferrer">
-        <i class="fab fa-bitbucket"></i>
-      </a></li>
-      <li><a href="https://codepen.io/stavros-liaskos/#" target="_blank" rel="noreferrer">
-        <i class="fab fa-codepen"></i>
-      </a></li>
-      <li><a href="https://www.linkedin.com/in/stavros-liaskos-66166094/" target="_blank" rel="noreferrer">
-        <i class="fab fa-linkedin-in"></i>
-      </a></li>
-      <li><a href="https://www.xing.com/profile/Stavros_Liaskos" target="_blank" rel="noreferrer">
-        <i class="fab fa-xing"></i>
-      </a></li>
-      <li><a href="mailto:hello@stavrosliaskos.com" target="_blank">
-        <i class="fab fas fa-envelope"></i>
-      </a></li>
+      <li>
+        <a href="https://github.com/stavros-liaskos" target="_blank" class="dis-txt fab fa-github"
+           rel="noopener noreferrer">
+          Github
+        </a>
+      </li>
+      <li>
+        <a href="https://bitbucket.org/stavros_liaskos/" target="_blank" class="dis-txt fab fa-bitbucket"
+           rel="noopener noreferrer">
+          Bitbucket
+        </a>
+      </li>
+      <li>
+        <a href="https://codepen.io/stavros-liaskos/#" target="_blank" class="dis-txt fab fa-codepen"
+           rel="noopener noreferrer">
+          Codepen
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/stavros-liaskos-66166094/" target="_blank" class="dis-txt fab fa-linkedin"
+           rel="noopener noreferrer">LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://www.xing.com/profile/Stavros_Liaskos" target="_blank" class="dis-txt fab fa-xing"
+           rel="noopener noreferrer">
+          Xing
+        </a>
+      </li>
+      <li>
+        <a href="mailto:hello@stavrosliaskos.com" target="_blank" class="dis-txt fab fas fa-envelope">
+          Mail
+        </a>
+      </li>
     </ul>
   </div>
 </template>
