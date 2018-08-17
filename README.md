@@ -50,7 +50,7 @@ Original images are stored at `/archive` for future use and the production ones 
 
 ## Heroku
 [Visit Develop Heroku App](https://develop-stavrosliaskos.herokuapp.com/)  
-[Visit Production Heroku App](https://production-stavrosliaskos.herokuapp.com/)
+[Visit Staging Heroku App](https://production-stavrosliaskos.herokuapp.com/)
 
 Heroku is configured to deploy master automatically. However, go [here](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md) if you to know more about CLI deployments.
   
@@ -136,6 +136,21 @@ Google Audits:
 
 [mobile friendly test](https://search.google.com/test/mobile-friendly): passed  
 
+## CLI Checker
+Using [Webhint](https://webhint.io/) for local checking too
+
+For production:
+```
+yarn hint
+```
+For staging:
+```
+yarn hint-stage
+```
+For develop:
+```
+yarn hint-dev
+``` 
 
 ## License
 

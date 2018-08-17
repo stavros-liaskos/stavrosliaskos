@@ -15,7 +15,10 @@
     "precommit": "npm run lint",
     "heroku-postbuild": "npm run build",
     "test": "nyc ava --serial --verbose",
-    "image": "bash image_cropper.sh"
+    "image": "bash image_cropper.sh",
+    "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
+    "hint-stage": "./node_modules/hint/dist/src/bin/hint.js https://production-stavrosliaskos.herokuapp.com/",
+    "hint-dev": "./node_modules/hint/dist/src/bin/hint.js https://develop-stavrosliaskos.herokuapp.com/"
   },
   "engines": {
     "yarn": "1.7.0",
@@ -44,6 +47,7 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "hint": "^3.2.0",
     "jsdom": "^11.12.0",
     "node-sass": "^4.7.2",
     "nyc": "^12.0.2",

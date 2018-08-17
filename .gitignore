@@ -15,3 +15,6 @@ dist
 
 # Ignore yarn.lock to avoid breaking Travis
 yarn.lock
+
+# Webhint reports
+hint-report
