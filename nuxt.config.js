@@ -9,7 +9,8 @@ module.exports = {
     title: 'Stavros Liaskos // Frontend Developer',
     meta: [
       {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'},
+      {'http-equiv': 'cache-control', content: 'max-age=31536000'},
       {
         hid: 'description',
         name: 'description',
