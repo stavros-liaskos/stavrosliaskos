@@ -101,6 +101,8 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - horizontal list and scrolling project cards in device mode 
 - 404 page doesn't work on production
 - [fix coverage ](https://nuxtjs.org/examples/testing/)
+- [add some headers](https://pwa.nuxtjs.org/modules/meta.html)
+
 
 ## Pages
 /   
@@ -112,17 +114,17 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 ## Ranking
 Google Audits:
 > Mobile
-> - 99 Performance 
+> - 100 Performance 
 > - 45 PWA          
 > - 84 Accessibility
-> - 75 Best Practices
+> - 88 Best Practices
 > - 100 SEO
 
 > Desktop
 > - 100 Performance 
 > - 36 PWA          
 > - 84 Accessibility
-> - 81 Best Practices
+> - 88 Best Practices
 > - 100 SEO
 
 [page speed insights](https://developers.google.com/speed/pagespeed/insights/) 100 mobile / 100 desktop
