@@ -2,29 +2,31 @@
   <div class="social-links">
     <ul>
       <li>
-        <a href="https://github.com/stavros-liaskos" target="_blank" class="dis-txt fab fa-github" rel="noreferrer">
+        <a href="https://github.com/stavros-liaskos" target="_blank" class="dis-txt fab fa-github"
+           rel="noopener noreferrer">
           Github
         </a>
       </li>
       <li>
         <a href="https://bitbucket.org/stavros_liaskos/" target="_blank" class="dis-txt fab fa-bitbucket"
-           rel="noreferrer">
+           rel="noopener noreferrer">
           Bitbucket
         </a>
       </li>
       <li>
-        <a href="https://codepen.io/stavros-liaskos/#" target="_blank" class="dis-txt fab fa-codepen" rel="noreferrer">
+        <a href="https://codepen.io/stavros-liaskos/#" target="_blank" class="dis-txt fab fa-codepen"
+           rel="noopener noreferrer">
           Codepen
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/stavros-liaskos-66166094/" target="_blank" class="dis-txt fab fa-linkedin"
-           rel="noreferrer">LinkedIn
+           rel="noopener noreferrer">LinkedIn
         </a>
       </li>
       <li>
         <a href="https://www.xing.com/profile/Stavros_Liaskos" target="_blank" class="dis-txt fab fa-xing"
-           rel="noreferrer">
+           rel="noopener noreferrer">
           Xing
         </a>
       </li>
