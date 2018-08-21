@@ -3,6 +3,7 @@
     <span class="text-light footer-item">© {{dateYear}} Stavros Liaskos</span>
     <a href="/privacy-policy" class=" footer-item">Privacy Policy </a>
     <a href="/terms-and-conditions" class=" footer-item">Terms and Conditions </a>
+    <a href="/sitemap.xml" class=" footer-item">Sitemap </a>
     <!--
     <li><a href="https://google.com/"> Sitemap |</a></li>
     -->
