@@ -102,6 +102,8 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - 404 page doesn't work on production
 - [fix coverage ](https://nuxtjs.org/examples/testing/)
 - [add some headers](https://pwa.nuxtjs.org/modules/meta.html)
+- redirect domain to use production heroku and take full advantage of nuxt features
+- maybe give [this](https://github.com/shshaw/splitting/) a try? looks fancy
 
 
 ## Pages
