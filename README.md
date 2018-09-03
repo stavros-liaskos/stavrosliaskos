@@ -48,6 +48,12 @@ Images are cropped using [ImageMagick](https://www.imagemagick.org/script/index.
 `convert archive/original.png -gravity center -resize 350x240\^ -crop 350x240+0+0 +repage static/converted.png`  
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
+## Now
+Deploy `master` with now to https://stavros.online/:
+```shell
+now
+```
+
 ## Heroku
 [Visit Develop Heroku App](https://develop-stavrosliaskos.herokuapp.com/)  
 [Visit Staging Heroku App](https://staging-stavrosliaskos.herokuapp.com/)
@@ -140,20 +146,11 @@ Google Audits:
 [mobile friendly test](https://search.google.com/test/mobile-friendly): passed  
 
 ## CLI Checker
-Using [Webhint](https://webhint.io/) for local checking too
+Using [Webhint](https://webhint.io/) :
 
-For production:
 ```
 yarn hint
 ```
-For staging:
-```
-yarn hint-stage
-```
-For develop:
-```
-yarn hint-dev
-``` 
 
 ## License
 
