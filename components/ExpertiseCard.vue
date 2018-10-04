@@ -11,15 +11,15 @@ export default {
   props: {
     title: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     icon: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     desc: {
       type: String,
-      required: true // TODO fix
+      required: true
     }
   }
 }

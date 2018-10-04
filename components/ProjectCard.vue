@@ -17,9 +17,11 @@
         </div>
 
         <div class="title-container">
-          <h2 class="text-dark"><i 
-            class="fas fa-dollar-sign" 
-            data-v-1c8e701e=""/> {{ title }} </h2>
+          <h2 class="text-dark">
+            <i 
+              class="fas fa-dollar-sign" 
+              data-v-1c8e701e=""/>
+            {{ title }} </h2>
         </div>
 
         <div class="desc-container">
@@ -35,23 +37,23 @@ export default {
   props: {
     imgUrl: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     title: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     tech: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     desc: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     link: {
       type: String,
-      required: true // TODO fix
+      required: true
     }
   }
 }

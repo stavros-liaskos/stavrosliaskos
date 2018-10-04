@@ -15,15 +15,15 @@ export default {
   props: {
     index: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     active: {
       type: String,
-      required: true // TODO fix
+      required: true
     },
     linksIDs: {
       type: String,
-      required: true // TODO fix
+      required: true
     }
   },
 
