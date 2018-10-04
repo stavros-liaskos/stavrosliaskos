@@ -54,35 +54,9 @@ Deploy `master` with now to https://stavros.online/:
 yarn deploy
 ```
 
-## Heroku
-[Visit Develop Heroku App](https://develop-stavrosliaskos.herokuapp.com/)  
-[Visit Staging Heroku App](https://staging-stavrosliaskos.herokuapp.com/)
-
-Heroku is configured to deploy master automatically. However, go [here](https://github.com/nuxt/docs/blob/master/en/faq/heroku-deployment.md) if you to know more about CLI deployments.
-  
-
-##### Heroku CLI SHORTCUTS
-
-Login: enter with your credentials in CLI
-```bash
-heroku login
-```
-Tail logs
-```bash
-heroku logs --tail
-```
-Update Heroku app
-
-```bash
-git add .
-git commit -m "update"
-git push heroku master
-```
-
 ## Useful Links
 - [Nuxt layouts](https://www.youtube.com/watch?v=YOKnSTp7d38)  
 - [Typed.js](https://www.npmjs.com/package/vue-typer#getting-started)
-
 
 
 ## TODO
