@@ -1,0 +1,38 @@
+{
+  "expetiseMainContent": {
+    "title": "My Expertise",
+    "desc": "I've got chops in all phases of the development process."
+  },
+  "expertiseCards": [
+    {
+      "title": "Strategy",
+      "icon": "fas fa-chart-line",
+      "desc": "I transform projects and ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start."
+    },
+    {
+      "title": "Code",
+      "icon": "fas fa-code",
+      "desc": "I design in the browser with HTML(5), CSS(3) and a ES6. I love coding things from scratch, but I can work with Frontend frameworks like Vue.js, React.js, Bootstrap etc."
+    },
+    {
+      "title": "Performance",
+      "icon": "fas fa-tachometer-alt",
+      "desc": "Have you visited a website from an old smart phone under a slow network connection? And then, have you visited that website ever again..?"
+    },
+    {
+      "title": "UX/UI",
+      "icon": "fas fa-user-plus",
+      "desc": "I wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more."
+    },
+    {
+      "title": "Creative",
+      "icon": "fas fa-lightbulb",
+      "desc": "Backed by an extensive experience and a personality which demands to know the latest news in the business, I create a broad range of applications with a focus on web design."
+    },
+    {
+      "title": "State-of-art",
+      "icon": "fas fa-space-shuttle",
+      "desc": "I build my projects using state of the art technologies, taking advantage of their benefits: faster, smarter, simpler and more flexible."
+    }
+  ]
+}

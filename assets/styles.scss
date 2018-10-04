@@ -1,0 +1,9 @@
+// @import 'debug';
+@import '../node_modules/breakpoint-sass/stylesheets/breakpoint';
+@import './normalize';
+@import 'atoms';
+
+*::selection {
+  background: $color_medium_grey;
+  color: $text_dark;
+}
