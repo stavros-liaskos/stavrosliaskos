@@ -9,10 +9,11 @@
 
     <p class="m-b-6">{{ expetiseMainContent.desc }}</p>
 
-    <div class="expertise-card-container">
-      <expertise-card 
-        v-for="(expertiseCard, index) in expertiseCards" 
-        v-if="expertiseCards.length"
+    <div 
+      v-if="expertiseCards.length"
+      class="expertise-card-container">
+      <expertise-card
+        v-for="(expertiseCard, index) in expertiseCards"
         :icon="expertiseCard.icon"
         :title="expertiseCard.title"
         :desc="expertiseCard.desc"

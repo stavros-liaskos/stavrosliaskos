@@ -6,11 +6,11 @@
       :class="['text-center p-b-6']"
       :content="'I have worked at:'"/>
 
-    <div class="project-cards-container">
-
-      <project-card 
-        v-for="(projectCard, index) in projectCards" 
-        v-if="projectCards.length"
+    <div 
+      v-if="projectCards.length"
+      class="project-cards-container">
+      <project-card
+        v-for="(projectCard, index) in projectCards"
         :img-url="projectCard.imgUrl"
         :link="projectCard.link"
         :title="projectCard.title"

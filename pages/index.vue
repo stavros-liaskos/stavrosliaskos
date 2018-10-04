@@ -1,17 +1,21 @@
 <template>
-  <h1 class="red">Hello {{ name }}!</h1>
+  <div>
+    <description/>
+    <expertise/>
+    <portfolio/>
+  </div>
 </template>
 
 <script>
+import Description from '~/components/Description.vue'
+import Expertise from '~/components/Expertise.vue'
+import Portfolio from '~/components/Portfolio.vue'
+
 export default {
-  data() {
-    return { name: 'world' }
+  components: {
+    Description,
+    Expertise,
+    Portfolio
   }
 }
 </script>
-
-<style>
-.red {
-  color: red;
-}
-</style>
