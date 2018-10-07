@@ -2,43 +2,43 @@ import test from 'ava'
 import { Nuxt, Builder } from 'nuxt'
 import { resolve } from 'path'
 
-// We keep a reference to Nuxt so we can close
-// the server at the end of the test
-let nuxt = null
+export var nuxt = null
+export var host = null
+export var port = null
+export var baseURL = null
 
-// Init Nuxt.js and start listening on localhost:4000
+// Init Nuxt.js and start listening at http://localhost:4000
 test.before('Init Nuxt.js', async t => {
+  // Explicitly override BABEL_ENV='production' here because
+  // ava sets NODE_ENV='test' which breaks babel-preset-vue-app,
+  // which in turn breaks uglify-js, which breaks our build.
+  process.env.BABEL_ENV = 'production'
   const rootDir = resolve(__dirname, '..')
   let config = {}
-  try {
-    config = require(resolve(rootDir, 'nuxt.config.js'))
-  } catch (e) {}
+  config = require(resolve(rootDir, 'nuxt.config.js'))
   config.rootDir = rootDir // project folder
   config.dev = false // production build
-  config.mode = 'universal' // Isomorphic application
   nuxt = new Nuxt(config)
-  await new Builder(nuxt).build()
-  nuxt.listen(4000, 'localhost')
-})
-
-// Example of testing only generated html
-test('Route / exits and render HTML', async t => {
-  let context = {}
-  const { html } = await nuxt.renderRoute('/', context)
-  t.true(html.includes('<h1 class="red">Hello world!</h1>'))
+  const builder = new Builder(nuxt)
+  await builder.build()
+  host = process.env.HOST || 'localhost'
+  port = process.env.PORT || 4000
+  nuxt.listen(port, host)
+  baseURL = `http://${host}:${port}`
 })
 
 // Example of testing via DOM checking
 test('Route / exits and render HTML with CSS applied', async t => {
   const window = await nuxt.renderAndGetWindow('http://localhost:4000/')
-  const element = window.document.querySelector('.red')
+  const element = window.document.querySelector('.desc-title')
   t.not(element, null)
-  t.is(element.textContent, 'Hello world!')
-  t.is(element.className, 'red')
-  t.is(window.getComputedStyle(element).color, 'red')
+  t.is(element.textContent, 'Hi, I\'m Stavros.')
 })
 
-// Close the Nuxt server
-test.after('Closing server', t => {
+// Teardown
+test.after.always('Shutdown Nuxt.js server', async t => {
   nuxt.close()
 })
+
+// https://github.com/babel/babel-preset-env/issues/186
+// https://github.com/vuejs/babel-preset-vue-app/issues/12#issue-274011724
