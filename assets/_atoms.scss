@@ -96,7 +96,7 @@ $space_10: nth($spacers, 11); // 200px
 $navi_toolbar_desktop_width: 50px;
 $navi_toolbar_device_height: $space_6;
 
-$footer_height: $space_10;
+$footer_height: 300px;
 
 /************************
  * MIXINS
@@ -598,10 +598,6 @@ $pulse_4: #d8f6e7;
     min-height: 100vh;
     overflow: auto;
     margin-bottom: $space_7;
-
-    &:last-of-type {
-      margin-bottom: $space_6;
-    }
   }
 }
 

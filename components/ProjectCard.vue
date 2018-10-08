@@ -61,7 +61,6 @@ export default {
 
 <style lang="scss">
 // Card spacing
-$card_width: 350px;
 $card_height: 350px;
 $card_bg_color: $color_white;
 $anim-time: 0.3s;
@@ -72,8 +71,7 @@ $tech_stack_height: 20px;
 .project-card {
   position: relative;
   width: 100%;
-  max-width: $card_width;
-  min-width: calc(#{$card_width} - 100px);
+  max-width: 300px;
   max-height: $card_height;
   background: $card_bg_color;
   margin: 0 $space_2 $space_7;

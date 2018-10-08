@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer z-3 container text-center">
+  <footer class="footer z-3 container text-center p-t-7">
     <div class="m-b-5">
       <a 
         href="/" 
@@ -22,6 +22,7 @@ export default {
 
 <style lang="scss">
 .footer {
+  min-height: unset !important; // unset it from .container
   height: $footer_height;
 }
 </style>
