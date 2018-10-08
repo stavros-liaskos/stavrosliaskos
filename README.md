@@ -89,6 +89,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - https://shields.io/#/
 - use #6DD8CE for active/link color? Also on select, hover, button:hover ("fills up" the button)
 - what if everytime a user enters, there is another color chosen for links?
+- fix FOUC of contact elements with inline styles
 
 ## Pages
 /   
