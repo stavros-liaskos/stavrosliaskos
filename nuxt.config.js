@@ -13,6 +13,9 @@ module.exports = {
     title: 'Stavros Liaskos // Frontend Developer',
     meta: [
       { charset: 'utf-8' },
+      { name: 'msapplication-TileColor', content: '#16191b' },
+      { name: 'msapplication-config', content: './favicon/browserconfig.xml' },
+      { name: 'theme-color', content: '#ffffff' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
@@ -22,8 +25,31 @@ module.exports = {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      { rel: 'canonical', href: 'https://stavrosliaskos.com/' }
+      { rel: 'canonical', href: 'https://stavrosliaskos.com/' },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '76x76',
+        href: './favicon/apple-touch-icon.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: './favicon/favicon-32x32.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: './favicon/favicon-16x16.png'
+      },
+      { rel: 'manifest', href: './favicon/site.webmanifest' },
+      {
+        rel: 'mask-icon',
+        color: '#5bbad5',
+        href: './favicon/safari-pinned-tab.svg'
+      },
+      { rel: 'shortcut icon', href: './favicon/favicon.ico' }
     ]
   },
 
