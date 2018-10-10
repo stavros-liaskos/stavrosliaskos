@@ -90,6 +90,8 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - use #6DD8CE for active/link color? Also on select, hover, button:hover ("fills up" the button)
 - what if everytime a user enters, there is another color chosen for links?
 - fix FOUC of contact elements with inline styles
+- https://stackoverflow.com/questions/5199902/isnt-it-silly-that-a-tiny-favicon-requires-yet-another-http-request-how-to-mak?rq=1
+- https://realfavicongenerator.net/
 
 ## Pages
 /   

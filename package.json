@@ -15,7 +15,8 @@
     "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
     "precommit": "npm run lint",
     "test": "ava --serial --verbose",
-    "deploy": "now rm -y stavrosliaskos && now && now alias"
+    "deploy": "now rm -y stavrosliaskos && now && now alias",
+    "favicon-gen": "real-favicon generate faviconDescription.json faviconData.json static/favicon"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
@@ -32,6 +33,7 @@
     "babel-eslint": "^8.2.1",
     "babel-preset-env": "^1.7.0",
     "breakpoint-sass": "^2.7.1",
+    "cli-real-favicon": "0.0.6",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-loader": "^2.0.0",
