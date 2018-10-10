@@ -48,6 +48,15 @@ Images are cropped using [ImageMagick](https://www.imagemagick.org/script/index.
 `convert archive/original.png -gravity center -resize 350x240\^ -crop 350x240+0+0 +repage static/converted.png`  
 Original images are stored at `/archive` for future use and the production ones under `/static`, [here is why](https://nuxtjs.org/guide/assets#static)
 
+## Favicon
+I use [cli-real-favicon](https://github.com/RealFaviconGenerator/cli-real-favicon) for generating icons.   
+To generate new favicons run:  
+```shell
+npm run favicon-gen
+``` 
+You can visit the [website](https://realfavicongenerator.net) for info AND for testing the favicons   
+[Source](https://realfavicongenerator.net)
+
 ## Now
 Deploy `master` with now to https://stavros.online/:
 ```shell
