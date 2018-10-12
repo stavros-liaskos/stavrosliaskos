@@ -1,15 +1,15 @@
 <template>
   <div 
     id="description" 
-    class="description section z-3">
-    <h1 class="desc-title">Hi, I'm Stavros.</h1>
-    <h2 class="desc-title h1">I design & build</h2>
+    class="description section">
+    <h1 class="desc-title z-3">Hi, I'm Stavros.</h1>
+    <h2 class="desc-title h1 z-3">I design & build</h2>
 
     <vue-typer 
       v-bind="{text: typedTxt}" 
       initial-action="erasing"/>
 
-    <div class="learn-more text-center">
+    <div class="learn-more text-center z-3">
       <a 
         v-scroll-to="'#expertise'" 
         href="#" 

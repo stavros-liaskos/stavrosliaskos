@@ -1,5 +1,5 @@
 <template>
-  <div class="expertise-card one-third bg-dark">
+  <div class="expertise-card one-third">
     <i :class="[icon]"/>
     <h2 class="h1">{{ title }}</h2>
     <p>{{ desc }}</p>
