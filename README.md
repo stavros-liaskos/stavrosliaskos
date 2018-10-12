@@ -22,21 +22,6 @@ $ yarn start
 # generate static project (used at production server)
 $ yarn generate
 ```
-Or if you prefer npm:
-``` bash
-# install dependencies
-$ npm i
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project (used at production server)
-$ npm run generate
-```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
@@ -52,7 +37,7 @@ Original images are stored at `/archive` for future use and the production ones 
 I use [cli-real-favicon](https://github.com/RealFaviconGenerator/cli-real-favicon) for generating icons.   
 To generate new favicons run:  
 ```shell
-npm run favicon-gen
+yarn favicon-gen
 ``` 
 You can visit the [website](https://realfavicongenerator.net) for info AND for testing the favicons   
 [Source](https://realfavicongenerator.net)

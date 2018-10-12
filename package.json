@@ -13,7 +13,7 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "image": "bash image_cropper.sh",
     "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
-    "precommit": "npm run lint",
+    "precommit": "yarn lint",
     "test": "ava --serial --verbose",
     "deploy": "now rm -y stavrosliaskos && now && now alias",
     "favicon-gen": "real-favicon generate faviconDescription.json faviconData.json static/favicon"
