@@ -459,7 +459,7 @@ $pulse_4: #d8f6e7;
 // zoom: increase font-size on hover
 @mixin zoom($initial_font_size, $final_font_size) {
   font-size: $initial_font_size;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     font-size: $final_font_size;
