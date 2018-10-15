@@ -6,7 +6,9 @@
 
       <burger/>
 
-      <social-links/>
+      <div class="social-links">
+        <social-links/>
+      </div>
 
       <span class="version text-light">{{ version }}</span>
     </div>
@@ -60,6 +62,10 @@ export default {
       animation: pulse-color 12s infinite alternate;
     }
   }
+
+  .social-links {
+    display: none;
+  }
 }
 
 @include breakpoint($breakpoint_screen_md) {
@@ -73,6 +79,26 @@ export default {
       position: absolute;
       bottom: 0;
       left: 0;
+    }
+
+    .social-links {
+      display: block;
+      position: absolute;
+      bottom: $space_8;
+      left: 0;
+      text-align: center;
+      margin-left: $space_2;
+
+      .fab {
+        display: inline-block !important;
+        animation: pulse-color 12s infinite alternate;
+        margin-bottom: $space_1;
+        cursor: pointer;
+        @include zoom(
+          $navi_toolbar_initial_icons_size,
+          $navi_toolbar_final_icons_size
+        );
+      }
     }
   }
 }

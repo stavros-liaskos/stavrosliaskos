@@ -64,10 +64,9 @@ yarn deploy
 - what is the vue way to do animationend?
 - [Install App-Wide Components & Directives](https://alligator.io/vuejs/creating-custom-plugins/)
 - [redirects issue from seo checker](https://github.com/nuxt/nuxt.js/issues/1592)
-- include social links in device mode in contact section
 - disable horizontal scrolling in iphone
 - horizontal list and scrolling project cards in device mode 
-- 404 page doesn't work on production
+- 404 page doesn't work on production (-> because it's deployed as a spa)
 - [fix coverage ](https://nuxtjs.org/examples/testing/)
 - [add some headers](https://pwa.nuxtjs.org/modules/meta.html)
 - redirect domain to use production heroku and take full advantage of nuxt features
