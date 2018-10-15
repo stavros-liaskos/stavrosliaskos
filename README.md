@@ -56,10 +56,8 @@ yarn deploy
 ## TODO
 - [decrease font and icons file size](http://fontello.com/)
 - fade in to improve user's speed perspective
-- contact section and form (connect to BE)  
+- contact section and form (connect to BE when it's available)  
 - use srcset for RW images (fix device bug: project card images not centered)
-- hover vs click effect at project cards on device mode? [this hack to the resque?!](https://codepen.io/MartijnCuppens/pen/GZWgaQ?editors=1100)
-https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-portfolio
 - create plugin for FontFaceObserver and fix false negative error in promise
 - [implement router link if it makes sense...](https://router.vuejs.org/en/api/router-link.html)
 - fix console errors (typed js) | also slows down a lot "yarn dev"
@@ -84,6 +82,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - use #6DD8CE for active/link color? Also on select, hover, button:hover ("fills up" the button)
 - what if everytime a user enters, there is another color chosen for links?
 - https://realfavicongenerator.net/ Use a .png over 260x260
+- you can download SVGs from fontawesome rather than the whole library! But they will be added inline so maybe the performance will drop. Or implement font library
 
 ## Pages
 /   

@@ -1,7 +1,9 @@
 <!-- Fixed Navigation Toolbar (Desktop: left-side, Device: top) -->
 <template>
   <div class="navi-toolbar">
-    <div class="navi-toolbar-container">
+    <div class="navi-toolbar-container p-l-2">
+      <logo/>
+
       <burger/>
 
       <social-links/>
@@ -12,12 +14,14 @@
 </template>
 
 <script>
+import Logo from '~/components/Logo.vue'
 import Burger from '~/components/Burger.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
 import pack from '~/package.json'
 
 export default {
   components: {
+    Logo,
     Burger,
     SocialLinks
   },
@@ -43,6 +47,13 @@ export default {
   .navi-toolbar-container {
     position: relative;
     height: 100%;
+
+    #logo_s {
+      position: absolute;
+      top: $space_2;
+      left: $space_2;
+      width: $space_5;
+    }
 
     .version {
       display: none;

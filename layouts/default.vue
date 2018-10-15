@@ -9,13 +9,9 @@
       <div class="container">
         <nuxt/>
       </div>
+
+      <footer-bar/>
     </div>
-
-    <footer-bar/>
-
-    <!--
-        <header-bar/>
-    -->
 
     <particles/>
   </div>
@@ -25,14 +21,12 @@
 import Navigation from '~/components/Navigation.vue'
 import Particles from '~/components/Particles.vue'
 import FooterBar from '~/components/Footer/FooterBar.vue'
-// import HeaderBar from '~/components/HeaderBar.vue';
 import FontFaceObserver from 'fontfaceobserver'
 
 export default {
   components: {
     Navigation,
     Particles,
-    // HeaderBar,
     FooterBar
   },
 

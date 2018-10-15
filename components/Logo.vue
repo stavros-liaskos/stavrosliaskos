@@ -1,44 +1,38 @@
 <template>
-  <div>
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      class="#logo" 
-      viewBox="0 0 14.14213562373095 14.14213562373095"
-      style="width: 32px;height: 32px;fill: white;stroke: white;position: fixed;">
-      <title>Soulwire</title>
-      <desc>Soulwire Logo</desc>
-      <g transform=" translate(7.071067811865475,0) rotate(45)">
-        <path 
-          class="s" 
-          stroke-linecap="square" 
-          stroke-width="2.1" 
-          fill="none"
-          d="M8.95,1.05 L1.05,1.05 L1.05,5 L8.95,5 L8.95,8.95"/>
-        <g transform="translate(1.05,8.95)">
-          <rect 
-            class="w1" 
-            stroke="none" 
-            x="-1.05" 
-            y="-1.05" 
-            width="2.1" 
-            height="2.1"/>
-        </g>
-        <g transform="translate(4.95,8.95)">
-          <rect 
-            class="w2" 
-            stroke="none" 
-            x="-1.05" 
-            y="-1.05" 
-            width="2.1" 
-            height="2.1"/>
-        </g>
+  <nuxt-link
+    to="/">
+    <svg
+      id="logo_s"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      viewBox="0 0 1000 1000"
+      style="enable-background:new 0 0 1000 1000;"
+      xml:space="preserve">
+      <g>
+        <path
+          d="M809,1000c67.4,0,131.1-0.3,190.7-0.3c-0.1-205.2,0.3-405.6,0.3-611.6c-260.6-0.2-523-0.3-784.4-0.5
+		c-0.6-71-1.1-131.4-1.7-206.1c264.1,0.3,524.3-0.9,786.1-0.6c0-68,0-128.5,0-180.8C657.6,0,327.9,0,0.2,0
+		c-0.7,191.2,0.8,389.2,0,597.8c262.1,0,531.7,0,808.2,0C808,734.4,809.3,877.3,809,1000z"/>
+        <rect
+          x="0.2"
+          y="789.7"
+          width="213.4"
+          height="210.3"/>
+        <rect
+          x="404.6"
+          y="789.7"
+          width="213.4"
+          height="210.3"/>
       </g>
     </svg>
-  </div>
+  </nuxt-link>
 </template>
 
 <style lang="scss">
-#logo {
-  // move styles from inline to here
+#logo_s {
+  fill: $text_light;
 }
 </style>
