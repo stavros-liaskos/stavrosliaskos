@@ -1,5 +1,14 @@
 const pkg = require('./package')
 
+const headTitle = 'Stavros Liaskos // Frontend Developer',
+  headDescription =
+    "I'm Stavros Liaskos, a Web Developer who likes to mix code, animation, interactivity and generative design with state-of-art technologies. I work across the full JavaScript stack ",
+  ogUrl = pkg.homepage,
+  ogType = 'website',
+  ogImage = `${pkg.homepage}/favicon/logo_og_image.png`,
+  ogImageWidth = '898',
+  ogImageHeight = '898'
+
 module.exports = {
   mode: 'spa',
 
@@ -10,18 +19,17 @@ module.exports = {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'Stavros Liaskos // Frontend Developer',
+    title: headTitle,
     meta: [
       { charset: 'utf-8' },
-      { name: 'msapplication-TileColor', content: '#16191b' },
+      { name: 'msapplication-TileColor', content: '#000000' },
       { name: 'msapplication-config', content: './favicon/browserconfig.xml' },
       { name: 'theme-color', content: '#ffffff' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content:
-          "I'm Stavros Liaskos, a Web Developer who likes to mix code, animation, interactivity and generative design with state-of-art technologies. I work across the full JavaScript stack "
+        content: headDescription
       }
     ],
     link: [
@@ -46,10 +54,45 @@ module.exports = {
       { rel: 'manifest', href: './favicon/site.webmanifest' },
       {
         rel: 'mask-icon',
-        color: '#5bbad5',
+        color: '#000000',
         href: './favicon/safari-pinned-tab.svg'
       },
-      { rel: 'shortcut icon', href: './favicon/favicon.ico' }
+      { rel: 'shortcut icon', href: './favicon/favicon.ico' },
+      {
+        hid: `og:title`,
+        property: 'og:title',
+        content: headTitle
+      },
+      {
+        hid: `og:description`,
+        property: 'og:description',
+        content: headDescription
+      },
+      {
+        hid: `og:type`,
+        property: 'og:type',
+        content: ogType
+      },
+      {
+        hid: `og:url`,
+        property: 'og:url',
+        content: ogUrl
+      },
+      {
+        hid: `og:image`,
+        property: 'og:image',
+        content: ogImage
+      },
+      {
+        hid: `og:image:width`,
+        property: 'og:image:width',
+        content: ogImageWidth
+      },
+      {
+        hid: `og:image:height`,
+        property: 'og:image:height',
+        content: ogImageHeight
+      }
     ]
   },
 

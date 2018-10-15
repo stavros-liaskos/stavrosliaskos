@@ -1,9 +1,7 @@
 <template>
-  <footer class="footer z-3 container text-center p-t-7">
-    <div class="m-b-5">
-      <a 
-        href="/" 
-        class="h2 underline">stavrosliaskos.com</a>
+  <footer class="footer z-3 container text-center">
+    <div class="m-y-5">
+      <logo/>
     </div>
 
     <footer-lower/>
@@ -11,10 +9,12 @@
 </template>
 
 <script>
+import Logo from '~/components/Logo.vue'
 import FooterLower from './FooterLower.vue'
 
 export default {
   components: {
+    Logo,
     FooterLower
   }
 }
@@ -24,5 +24,9 @@ export default {
 .footer {
   min-height: unset !important; // unset it from .container
   height: $footer_height;
+
+  #logo_s {
+    width: 50px;
+  }
 }
 </style>

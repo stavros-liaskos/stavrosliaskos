@@ -1,8 +1,13 @@
 {
   "name": "stavrosliaskos",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "My Nuxt.js based developer website",
   "author": "Stavros Liaskos",
+  "homepage": "https://stavrosliaskos.com/",
+  "repository": "https://github.com/stavros-liaskos/stavrosliaskos",
+  "keywords": ["nuxt", "stavros", "liaskos", "stavrosliaskos", "developer"],
+  "bugs": "https://github.com/stavros-liaskos/stavrosliaskos/issues",
+  "license": "SEE LICENSE IN LICENSE",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -15,7 +20,7 @@
     "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
     "precommit": "yarn lint",
     "test": "ava --serial --verbose",
-    "deploy": "now rm -y stavrosliaskos && now && now alias",
+    "deploy": "yarn lintfix && now rm -y stavrosliaskos && now && now alias",
     "favicon-gen": "real-favicon generate faviconDescription.json faviconData.json static/favicon"
   },
   "dependencies": {

@@ -34,19 +34,15 @@
         hello@stavrosliaskos.com
       </a> .
     </p>
-
-    <go-home :style="{textAlign: 'right'}"/>
   </div>
 </template>
 
 <script>
 import HeadlineAnimated from '~/components/HeadlineAnimated'
-import GoHome from '~/components/GoHome'
 
 export default {
   components: {
-    HeadlineAnimated,
-    GoHome
+    HeadlineAnimated
   },
 
   computed: {

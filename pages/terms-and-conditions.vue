@@ -55,17 +55,5 @@
         target="_blank">
         hello@stavrosliaskos.com
     </a> .</p>
-
-    <go-home :style="{textAlign: 'right'}"/>
   </div>
 </template>
-
-<script>
-import GoHome from '~/components/GoHome'
-
-export default {
-  components: {
-    GoHome
-  }
-}
-</script>

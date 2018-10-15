@@ -94,7 +94,7 @@ $space_9: nth($spacers, 10); // 150px
 $space_10: nth($spacers, 11); // 200px
 
 $navi_toolbar_desktop_width: 50px;
-$navi_toolbar_device_height: $space_6;
+$navi_toolbar_device_height: 50px;
 
 $footer_height: 300px;
 
@@ -141,7 +141,7 @@ $footer_height: 300px;
 $font_family_default: 'Roboto Mono', monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $navi_toolbar_initial_icons_size: 2.5rem;
-$navi_toolbar_final_icons_size: 3rem;
+$navi_toolbar_final_icons_size: 3.5rem;
 $expertise_icons_size: 5rem;
 
 // Use 62.5% trick for better rem calculations
@@ -459,7 +459,7 @@ $pulse_4: #d8f6e7;
 // zoom: increase font-size on hover
 @mixin zoom($initial_font_size, $final_font_size) {
   font-size: $initial_font_size;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     font-size: $final_font_size;
@@ -556,7 +556,6 @@ $pulse_4: #d8f6e7;
 /************************
  * Z-INDEX
  ************************/
-// HeaderBar.vue
 .z-1 {
   position: relative;
   z-index: 100;
@@ -591,6 +590,11 @@ $pulse_4: #d8f6e7;
   margin-bottom: 0;
   padding: $space_7 0;
   border-bottom: dashed $color_light_grey;
+  width: 100%;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @include breakpoint($breakpoint_screen_md) {

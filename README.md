@@ -54,28 +54,19 @@ yarn deploy
 
 
 ## TODO
-- [decrease font and icons file size](http://fontello.com/)
+- [decrease font and icons file size](http://fontello.com/). You can also manually download the svg and use a icon generator tool
 - fade in to improve user's speed perspective
-- contact section and form (connect to BE)  
+- contact section and form (connect to BE when it's available)  
 - use srcset for RW images (fix device bug: project card images not centered)
-- hover vs click effect at project cards on device mode? [this hack to the resque?!](https://codepen.io/MartijnCuppens/pen/GZWgaQ?editors=1100)
-https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-portfolio
 - create plugin for FontFaceObserver and fix false negative error in promise
-- [implement router link if it makes sense...](https://router.vuejs.org/en/api/router-link.html)
 - fix console errors (typed js) | also slows down a lot "yarn dev"
 - [static html fallback]( https://github.com/nuxt/nuxt.js/issues/2120)
-- create favicon (apple icon, ie 8, ie9 etc...)
 - what is the vue way to do animationend?
-- improve asides: they must be dynamic and decrease until the next breakpoint (just like in bootstrap)
 - [Install App-Wide Components & Directives](https://alligator.io/vuejs/creating-custom-plugins/)
 - [redirects issue from seo checker](https://github.com/nuxt/nuxt.js/issues/1592)
-- add logo
-- logo in device mode: hide letters and pull svg to left
-- remove stavrosliaskos.com from footer
-- include social links in device mode in contact section
 - disable horizontal scrolling in iphone
 - horizontal list and scrolling project cards in device mode 
-- 404 page doesn't work on production
+- 404 page doesn't work on production (-> because it's deployed as a spa)
 - [fix coverage ](https://nuxtjs.org/examples/testing/)
 - [add some headers](https://pwa.nuxtjs.org/modules/meta.html)
 - redirect domain to use production heroku and take full advantage of nuxt features
@@ -84,6 +75,7 @@ https://caferati.me/labs/seo-part-one-google-search-for-full-stack-developer-por
 - use #6DD8CE for active/link color? Also on select, hover, button:hover ("fills up" the button)
 - what if everytime a user enters, there is another color chosen for links?
 - https://realfavicongenerator.net/ Use a .png over 260x260
+- you can download SVGs from fontawesome rather than the whole library! But they will be added inline so maybe the performance will drop. Or implement font library
 
 ## Pages
 /   
