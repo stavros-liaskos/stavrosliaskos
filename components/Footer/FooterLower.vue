@@ -11,9 +11,6 @@
     <nuxt-link 
       class=" footer-item" 
       to="/sitemap.xml">Sitemap </nuxt-link>
-      <!--
-    <li><a href="/contact"> Support</a></li>
-    -->
   </div>
 </template>
 

@@ -18,20 +18,17 @@
     -->
 
     <br>
-    <go-home :style="{textAlign: 'right'}"/>
   </div>
 </template>
 
 <script>
 // import ContactForm from '~/components/ContactForm';
 import HeadlineAnimated from '~/components/HeadlineAnimated'
-import GoHome from '~/components/GoHome'
 
 export default {
   components: {
     // ContactForm,
-    HeadlineAnimated,
-    GoHome
+    HeadlineAnimated
   },
 
   data() {
