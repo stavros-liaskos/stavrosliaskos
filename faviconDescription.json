@@ -14,7 +14,7 @@
     "desktopBrowser": {},
     "windows": {
       "pictureAspect": "noChange",
-      "backgroundColor": "#16191b",
+      "backgroundColor": "#000000",
       "onConflict": "override",
       "assets": {
         "windows80Ie10Tile": false,
@@ -30,7 +30,6 @@
       "pictureAspect": "noChange",
       "themeColor": "#ffffff",
       "manifest": {
-        "name": "St.Liaskos",
         "display": "standalone",
         "orientation": "notSet",
         "onConflict": "override",
@@ -43,8 +42,8 @@
     },
     "safariPinnedTab": {
       "pictureAspect": "blackAndWhite",
-      "threshold": 75,
-      "themeColor": "#5bbad5"
+      "threshold": 47.65625,
+      "themeColor": "#000000"
     }
   },
   "settings": {

@@ -1,6 +1,6 @@
 {
   "name": "stavrosliaskos",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "My Nuxt.js based developer website",
   "author": "Stavros Liaskos",
   "private": true,
@@ -16,7 +16,8 @@
     "precommit": "yarn lint",
     "test": "ava --serial --verbose",
     "deploy": "now rm -y stavrosliaskos && now && now alias",
-    "favicon-gen": "real-favicon generate faviconDescription.json faviconData.json static/favicon"
+    "favicon-gen": "real-favicon generate faviconDescription.json faviconData.json static/favicon",
+    "fav": "real-favicon inject faviconData.json static/favicon index.html"
   },
   "dependencies": {
     "cross-env": "^5.2.0",

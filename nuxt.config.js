@@ -13,7 +13,7 @@ module.exports = {
     title: 'Stavros Liaskos // Frontend Developer',
     meta: [
       { charset: 'utf-8' },
-      { name: 'msapplication-TileColor', content: '#16191b' },
+      { name: 'msapplication-TileColor', content: '#000000' },
       { name: 'msapplication-config', content: './favicon/browserconfig.xml' },
       { name: 'theme-color', content: '#ffffff' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -46,7 +46,7 @@ module.exports = {
       { rel: 'manifest', href: './favicon/site.webmanifest' },
       {
         rel: 'mask-icon',
-        color: '#5bbad5',
+        color: '#000000',
         href: './favicon/safari-pinned-tab.svg'
       },
       { rel: 'shortcut icon', href: './favicon/favicon.ico' }

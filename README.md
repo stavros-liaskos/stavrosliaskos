@@ -62,7 +62,7 @@ yarn deploy
 - [implement router link if it makes sense...](https://router.vuejs.org/en/api/router-link.html)
 - fix console errors (typed js) | also slows down a lot "yarn dev"
 - [static html fallback]( https://github.com/nuxt/nuxt.js/issues/2120)
-- create favicon (apple icon, ie 8, ie9 etc...)
+- create favicon (afapple icon, ie 8, ie9 etc...)
 - what is the vue way to do animationend?
 - improve asides: they must be dynamic and decrease until the next breakpoint (just like in bootstrap)
 - [Install App-Wide Components & Directives](https://alligator.io/vuejs/creating-custom-plugins/)
