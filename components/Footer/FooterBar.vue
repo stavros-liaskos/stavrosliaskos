@@ -25,7 +25,7 @@ export default {
   min-height: unset !important; // unset it from .container
   height: $footer_height;
 
-  #logo_s {
+  .logo {
     width: 50px;
   }
 }

@@ -74,8 +74,10 @@ yarn deploy
 - https://shields.io/#/
 - use #6DD8CE for active/link color? Also on select, hover, button:hover ("fills up" the button)
 - what if everytime a user enters, there is another color chosen for links?
-- https://realfavicongenerator.net/ Use a .png over 260x260
 - you can download SVGs from fontawesome rather than the whole library! But they will be added inline so maybe the performance will drop. Or implement font library
+- test og images
+-
+
 
 ## Pages
 /   

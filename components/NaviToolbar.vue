@@ -50,7 +50,7 @@ export default {
     position: relative;
     height: 100%;
 
-    #logo_s {
+    .logo {
       position: absolute;
       top: $space_2;
       left: $space_2;
@@ -90,7 +90,6 @@ export default {
       margin-left: $space_2;
 
       .fab {
-        display: inline-block !important;
         animation: pulse-color 12s infinite alternate;
         margin-bottom: $space_1;
         cursor: pointer;

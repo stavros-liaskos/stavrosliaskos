@@ -625,8 +625,9 @@ $pulse_4: #d8f6e7;
   border-bottom: dashed $color_light_grey;
 }
 
-// Links must have discernible text fix
+// Links must have discernible text fix (requires inline display: none to avoid FOUC)
 .dis-txt {
+  display: inline-block !important;
   white-space: nowrap;
   overflow: hidden;
   text-indent: -9999px;

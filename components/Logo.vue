@@ -1,8 +1,9 @@
 <template>
   <nuxt-link
-    to="/">
+    to="/"
+    class="dis-txt">Logo
     <svg
-      id="logo_s"
+      class="logo"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -32,7 +33,7 @@
 </template>
 
 <style lang="scss">
-#logo_s {
+.logo {
   fill: $text_light;
 }
 </style>

@@ -1,11 +1,17 @@
 {
   "name": "stavrosliaskos",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "My Nuxt.js based developer website",
   "author": "Stavros Liaskos",
   "homepage": "https://stavrosliaskos.com/",
   "repository": "https://github.com/stavros-liaskos/stavrosliaskos",
-  "keywords": ["nuxt", "stavros", "liaskos", "stavrosliaskos", "developer"],
+  "keywords": [
+    "nuxt",
+    "stavros",
+    "liaskos",
+    "stavrosliaskos",
+    "developer"
+  ],
   "bugs": "https://github.com/stavros-liaskos/stavrosliaskos/issues",
   "license": "SEE LICENSE IN LICENSE",
   "private": true,
