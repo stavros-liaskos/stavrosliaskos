@@ -51,7 +51,7 @@
     "eslint-plugin-prettier": "3.0.0",
     "eslint-plugin-vue": "^4.0.0",
     "fontfaceobserver": "^2.0.13",
-    "hint": "^3.4.8",
+    "hint": "^3.4.11",
     "jsdom": "^12.1.0",
     "node-sass": "^4.9.3",
     "nodemon": "^1.11.0",
