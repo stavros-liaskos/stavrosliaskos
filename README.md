@@ -91,14 +91,14 @@ Google Audits:
 > Mobile
 > - 100 Performance 
 > - 45 PWA          
-> - 84 Accessibility
+> - 100 Accessibility
 > - 88 Best Practices
 > - 100 SEO
 
 > Desktop
 > - 100 Performance 
 > - 36 PWA          
-> - 84 Accessibility
+> - 100 Accessibility
 > - 88 Best Practices
 > - 100 SEO
 
