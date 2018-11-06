@@ -1,6 +1,6 @@
 {
   "name": "stavrosliaskos",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "My Nuxt.js based developer website",
   "author": "Stavros Liaskos",
   "homepage": "https://stavrosliaskos.com/",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.2.0",
     "vue-lazyload": "^1.2.6",
     "vue-particles": "^1.0.9",
     "vue-router": "^3.0.1",
@@ -52,7 +52,7 @@
     "eslint-plugin-vue": "^4.0.0",
     "fontfaceobserver": "^2.0.13",
     "glob-all": "^3.1.0",
-    "hint": "^3.4.11",
+    "hint": "^4.0.1",
     "jsdom": "^12.1.0",
     "node-sass": "^4.9.3",
     "nodemon": "^1.11.0",
