@@ -76,7 +76,8 @@ yarn deploy
 - what if everytime a user enters, there is another color chosen for links?
 - you can download SVGs from fontawesome rather than the whole library! But they will be added inline so maybe the performance will drop. Or implement font library
 - test og images
--
+- [improve animation performance](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count)
+- https://www.purgecss.com/guides/nuxt
 
 
 ## Pages

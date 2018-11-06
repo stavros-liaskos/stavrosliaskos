@@ -32,7 +32,7 @@
     </li>
     <li>
       <a
-        href="https://www.linkedin.com/in/stavros-liaskos-66166094/"
+        href="https://www.linkedin.com/in/stavros-liaskos/"
         target="_blank"
         class="dis-txt fab text-light fa-linkedin"
         style="display: none"
