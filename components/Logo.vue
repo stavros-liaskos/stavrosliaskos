@@ -1,7 +1,7 @@
 <template>
   <nuxt-link
     to="/"
-    class="dis-txt">Logo
+    aria-label="logo">
     <svg
       class="logo"
       version="1.1"

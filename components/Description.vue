@@ -19,7 +19,8 @@
       <a
         v-scroll-to="'#expertise'"
         href="#"
-        class="dis-txt p-3 fas fa-arrow-down bounce h4">Arrow down</a>
+        class="p-3 fas fa-arrow-down bounce h4"
+        aria-label="scroll-down"/>
     </div>
   </div>
 </template>
