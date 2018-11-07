@@ -1,5 +1,5 @@
 <template>
-  <div 
+  <div
     :class="{ active: isNavOpen}"
     class="app"
   >
@@ -20,7 +20,7 @@
 <script>
 import Navigation from '~/components/Navigation.vue'
 import Particles from '~/components/Particles.vue'
-import FooterBar from '~/components/Footer/FooterBar.vue'
+import FooterBar from '~/components/FooterBar.vue'
 import FontFaceObserver from 'fontfaceobserver'
 
 export default {

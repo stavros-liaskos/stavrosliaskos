@@ -77,7 +77,6 @@ yarn deploy
 - you can download SVGs from fontawesome rather than the whole library! But they will be added inline so maybe the performance will drop. Or implement font library
 - test og images
 - [improve animation performance](https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count)
-- https://www.purgecss.com/guides/nuxt
 
 
 ## Pages
@@ -91,16 +90,16 @@ yarn deploy
 Google Audits:
 > Mobile
 > - 100 Performance 
-> - 45 PWA          
+> - 55 PWA          
 > - 100 Accessibility
-> - 88 Best Practices
+> - 100 Best Practices
 > - 100 SEO
 
 > Desktop
 > - 100 Performance 
-> - 36 PWA          
+> - 45 PWA          
 > - 100 Accessibility
-> - 88 Best Practices
+> - 100 Best Practices
 > - 100 SEO
 
 [page speed insights](https://developers.google.com/speed/pagespeed/insights/) 100 mobile / 100 desktop

@@ -1,6 +1,6 @@
 {
   "name": "stavrosliaskos",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "My Nuxt.js based developer website",
   "author": "Stavros Liaskos",
   "homepage": "https://stavrosliaskos.com/",
@@ -25,6 +25,7 @@
     "image": "bash image_cropper.sh",
     "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
     "precommit": "yarn lint",
+    "postcommit": "yarn deploy",
     "test": "ava --serial --verbose",
     "deploy": "yarn lintfix && now rm -y stavrosliaskos && now && now alias",
     "favicon-gen": "real-favicon generate faviconDescription.json faviconData.json static/favicon"
