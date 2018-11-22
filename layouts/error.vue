@@ -2,8 +2,8 @@
   <div class="z-3 text-center section-secondary">
     <h1 v-if="error.statusCode === 404">Page not found</h1>
     <h1 v-else>Ooops, An error occurred!</h1>
-    <br>
-    <go-home/>
+    <br >
+    <go-home />
   </div>
 </template>
 

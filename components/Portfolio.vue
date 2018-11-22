@@ -1,14 +1,11 @@
 <template>
-  <div 
-    id="portfolio" 
-    class="portfolio section z-3">
+  <div id="portfolio" class="portfolio section z-3">
     <headline-animated
       :class="['text-center p-b-6']"
-      :content="'I have worked at:'"/>
+      :content="'I have worked at:'"
+    />
 
-    <div 
-      v-if="projectCards.length"
-      class="project-cards-container">
+    <div v-if="projectCards.length" class="project-cards-container">
       <project-card
         v-for="(projectCard, index) in projectCards"
         :img-url="projectCard.imgUrl"

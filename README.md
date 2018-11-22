@@ -75,6 +75,7 @@ yarn deploy
 - use #6DD8CE for active/link color? Also on select, hover, button:hover ("fills up" the button)
 - what if everytime a user enters, there is another color chosen for links?
 - test og images
+- re-enable prettier
 
 
 ## Pages

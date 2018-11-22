@@ -5,8 +5,9 @@
         href="https://github.com/stavros-liaskos"
         target="_blank"
         aria-label="github"
-        rel="noopener noreferrer">
-        <icon-github/>
+        rel="noopener noreferrer"
+      >
+        <icon-github />
       </a>
     </li>
     <li>
@@ -14,8 +15,9 @@
         href="https://bitbucket.org/stavros_liaskos/"
         target="_blank"
         aria-label="bitbucket"
-        rel="noopener noreferrer">
-        <icon-bitbucket/>
+        rel="noopener noreferrer"
+      >
+        <icon-bitbucket />
       </a>
     </li>
     <li>
@@ -23,8 +25,9 @@
         href="https://codepen.io/stavros-liaskos/#"
         target="_blank"
         aria-label="codepen"
-        rel="noopener noreferrer">
-        <icon-codepen/>
+        rel="noopener noreferrer"
+      >
+        <icon-codepen />
       </a>
     </li>
     <li>
@@ -32,8 +35,9 @@
         href="https://www.linkedin.com/in/stavros-liaskos/"
         target="_blank"
         aria-label="linkedin"
-        rel="noopener noreferrer">
-        <icon-linkedin/>
+        rel="noopener noreferrer"
+      >
+        <icon-linkedin />
       </a>
     </li>
     <li>
@@ -41,21 +45,22 @@
         href="https://www.xing.com/profile/Stavros_Liaskos"
         target="_blank"
         aria-label="xing"
-        rel="noopener noreferrer">
-        <icon-xing/>
+        rel="noopener noreferrer"
+      >
+        <icon-xing />
       </a>
     </li>
     <li>
       <a
         href="mailto:hello@stavrosliaskos.com"
         target="_blank"
-        aria-label="email">
-        <icon-mail/>
+        aria-label="email"
+      >
+        <icon-mail />
       </a>
     </li>
   </ul>
 </template>
-
 
 <script>
 import IconGithub from '~/components/icons/IconGithub.vue'
@@ -76,7 +81,6 @@ export default {
   }
 }
 </script>
-
 
 <style lang="scss">
 .social-links {

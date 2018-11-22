@@ -1,6 +1,8 @@
 <template>
   <div>
-    <!--no-ssr explained: https://github.com/creotip/vue-particles/issues/28-->
+    <!--
+      no-ssr explained: https://github.com/creotip/vue-particles/issues/28
+    -->
     <no-ssr>
       <vue-particles
         :particle-opacity="0.2"

@@ -1,21 +1,19 @@
 <template>
   <footer class="footer z-3 container text-center">
-    <div class="m-y-5">
-      <logo/>
-    </div>
+    <div class="m-y-5"><logo /></div>
 
     <div class="footer-lower">
-      <span class="text-light footer-item">© {{ dateYear }} Stavros Liaskos</span>
+      <span class="text-light footer-item"
+      >© {{ dateYear }} Stavros Liaskos</span
+      >
 
-      <nuxt-link
-        class=" footer-item"
-        to="/privacy-policy">Privacy Policy </nuxt-link>
-      <nuxt-link
-        class=" footer-item"
-        to="/terms-and-conditions">Terms and Conditions </nuxt-link>
-      <nuxt-link
-        class=" footer-item"
-        to="/sitemap.xml">Sitemap </nuxt-link>
+      <nuxt-link class=" footer-item" to="/privacy-policy"
+      >Privacy Policy
+      </nuxt-link>
+      <nuxt-link class=" footer-item" to="/terms-and-conditions"
+      >Terms and Conditions
+      </nuxt-link>
+      <nuxt-link class=" footer-item" to="/sitemap.xml">Sitemap </nuxt-link>
     </div>
   </footer>
 </template>

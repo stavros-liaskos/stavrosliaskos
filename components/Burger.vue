@@ -1,12 +1,11 @@
 <template>
-  <div 
+  <div
     :class="{ active: isNavOpen }"
     class="burger-menu"
     @click="clickHandler()"
   >
-    <span class="burger-menu-line"/>
-    <span class="burger-menu-line"/>
-    <span class="burger-menu-line"/>
+    <span class="burger-menu-line" /> <span class="burger-menu-line" />
+    <span class="burger-menu-line" />
   </div>
 </template>
 
@@ -20,7 +19,7 @@ export default {
   },
 
   mounted() {
-    this.$root.$on('toggle.navigation.state', isNaviOpen => {
+    this.$root.$on('toggle.navigation.state', () => {
       this.isHovered = false
       if (this.isNavOpen) {
         setTimeout(() => {

@@ -1,39 +1,36 @@
 <template>
-  <div 
-    :class="{ active: isNavOpen}" 
-    class="navigation z-1">
-    <navi-toolbar/>
+  <div :class="{ active: isNavOpen }" class="navigation z-1">
+    <navi-toolbar />
 
     <div class="menu-container">
       <div class="menu-wrapper">
-
-        <div class="">
-          Hover me:
-        </div>
+        <div class="">Hover me:</div>
 
         <ul class="menu-list">
-
           <li class="menu-item">
-            <nuxt-link 
+            <nuxt-link
               class="item-link text-light underline h1 flip"
               to="/"
-              @click.native="toggleMenu()">Home
+              @click.native="toggleMenu()"
+            >Home
             </nuxt-link>
           </li>
 
           <li class="menu-item">
-            <nuxt-link 
+            <nuxt-link
               class="item-link text-light underline h1 flip"
               to="/about"
-              @click.native="toggleMenu()">About
+              @click.native="toggleMenu()"
+            >About
             </nuxt-link>
           </li>
 
           <li class="menu-item">
-            <nuxt-link 
+            <nuxt-link
               class="item-link text-light underline h1 flip"
               to="/contact"
-              @click.native="toggleMenu()">Contact
+              @click.native="toggleMenu()"
+            >Contact
             </nuxt-link>
           </li>
         </ul>

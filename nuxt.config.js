@@ -16,8 +16,8 @@ module.exports = {
   mode: 'spa',
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     htmlAttrs: {
       lang: 'en'
@@ -100,8 +100,8 @@ module.exports = {
   },
 
   /*
- ** Site Map Options
- */
+   ** Site Map Options
+   */
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://stavrosliaskos.com/',
@@ -122,18 +122,18 @@ module.exports = {
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#000000' },
 
   /*
-  ** Global CSS
-  */
+   ** Global CSS
+   */
   css: [],
 
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: [
     { src: '~/plugins/vue-scrollto' },
     { src: '~/plugins/vue-particles', ssr: false },
@@ -142,8 +142,8 @@ module.exports = {
   ],
 
   /*
-  ** Customize modules
-  */
+   ** Customize modules
+   */
   modules: [
     '@nuxtjs/sitemap',
     // load SASS file globally
@@ -157,12 +157,12 @@ module.exports = {
   ],
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     /*
-    ** You can extend webpack config here
-    */
+     ** You can extend webpack config here
+     */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {

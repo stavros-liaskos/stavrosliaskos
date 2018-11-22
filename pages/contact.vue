@@ -1,26 +1,23 @@
 <template>
   <div class="contact z-3 section">
-    <headline-animated
-      :class="['text-center']"
-      :content="'Let\'s talk'"/>
+    <headline-animated :class="['text-center']" :content="'Let\'s talk'" />
 
     <p class="desc text-center">
-      Do you want to tell me something amazing?
-      Do you have any questions?
-      Don't hesitate to contact me at:
-      <a 
-        href="mailto:hello@stavrosliaskos.com" 
-        target="_blank">hello@stavrosliaskos.com</a>
+      Do you want to tell me something amazing? Do you have any questions? Don't
+      hesitate to contact me at:
+      <a href="mailto:hello@stavrosliaskos.com" target="_blank"
+      >hello@stavrosliaskos.com</a
+      >
     </p>
 
-    <br>
+    <br >
 
     <div class="mobile">
       <p class="text-center">Or follow me at:</p>
 
-      <br>
+      <br >
 
-      <social-links/>
+      <social-links />
     </div>
   </div>
 </template>

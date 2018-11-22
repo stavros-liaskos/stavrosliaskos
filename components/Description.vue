@@ -1,30 +1,24 @@
 <template>
-  <div
-    id="description"
-    class="description section">
+  <div id="description" class="description section">
     <h1 class="desc-title z-3">Hi, I'm Stavros.</h1>
     <h2 class="desc-title h1 z-3">I design & build</h2>
 
-    <vue-typer
-      v-bind="{text: typedTxt}"
-      initial-action="erasing"/>
+    <vue-typer v-bind="{ text: typedTxt }" initial-action="erasing" />
 
     <div class="learn-more text-center z-3">
-      <a
-        v-scroll-to="'#expertise'"
-        href="#"
-        class="scroll-promt">
-        Learn more about what I do<br>
+      <a v-scroll-to="'#expertise'" href="#" class="scroll-promt">
+        Learn more about what I do<br >
       </a>
       <a
         v-scroll-to="'#expertise'"
         href="#"
         class="p-3 bounce h4"
-        aria-label="scroll-down">
-        <icon-arrow-down
-          :class="['bounce']"/>
-        <a/>
-    </a></div>
+        aria-label="scroll-down"
+      >
+        <icon-arrow-down :class="['bounce']" />
+        <a />
+      </a>
+    </div>
   </div>
 </template>
 

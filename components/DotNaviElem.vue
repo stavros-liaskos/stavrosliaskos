@@ -1,12 +1,12 @@
 <!-- Dot Navi Element used for Side Dot Navi -->
 <template>
-  <a 
-    v-scroll-to="{el: linkID}"
-    :class="{ active: active === index}"
+  <a
+    v-scroll-to="{ el: linkID }"
+    :class="{ active: active === index }"
     class="dot-wrapper"
     @click="activateDotNaviElem()"
   >
-    <span class="dot"/>
+    <span class="dot" />
   </a>
 </template>
 

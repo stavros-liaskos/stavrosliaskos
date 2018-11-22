@@ -2,13 +2,11 @@
 <template>
   <div class="navi-toolbar">
     <div class="navi-toolbar-container p-l-2">
-      <logo/>
+      <logo />
 
-      <burger/>
+      <burger />
 
-      <div class="social-links">
-        <social-links/>
-      </div>
+      <div class="social-links"><social-links /></div>
 
       <span class="version text-light">{{ version }}</span>
     </div>

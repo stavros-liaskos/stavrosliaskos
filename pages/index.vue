@@ -1,9 +1,5 @@
 <template>
-  <div style="width: 100%;">
-    <description/>
-    <expertise/>
-    <portfolio/>
-  </div>
+  <div style="width: 100%;"><description /> <expertise /> <portfolio /></div>
 </template>
 
 <script>

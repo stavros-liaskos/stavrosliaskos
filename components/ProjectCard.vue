@@ -1,14 +1,8 @@
 <template>
   <div class="project-card">
-    <a
-      :href="[link]"
-      target="_blank"
-      rel="noopener noreferrer">
+    <a :href="[link]" target="_blank" rel="noopener noreferrer">
       <div class="img-wrapper">
-        <img
-          v-lazy="`${imgUrl}`"
-          :alt="[title]"
-          class="project-card-img">
+        <img v-lazy="`${imgUrl}`" :alt="[title]" class="project-card-img" >
       </div>
 
       <div class="texts-container">
@@ -18,8 +12,9 @@
 
         <div class="title-container">
           <h2 class="text-dark">
-            <icon-dollar/>
-            {{ title }} </h2>
+            <icon-dollar />
+            {{ title }}
+          </h2>
         </div>
 
         <div class="desc-container">

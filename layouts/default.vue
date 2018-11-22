@@ -1,19 +1,14 @@
 <template>
-  <div
-    :class="{ active: isNavOpen}"
-    class="app"
-  >
-    <navigation/>
+  <div :class="{ active: isNavOpen }" class="app">
+    <navigation />
 
     <div class="app-wrapper">
-      <div class="container">
-        <nuxt/>
-      </div>
+      <div class="container"><nuxt /></div>
 
-      <footer-bar/>
+      <footer-bar />
     </div>
 
-    <particles/>
+    <particles />
   </div>
 </template>
 

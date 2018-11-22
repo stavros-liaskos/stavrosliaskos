@@ -1,7 +1,7 @@
 <!-- Side Scroll Dot Navi -->
 <template>
   <div class="dot-side-nav z-2">
-    <dot-navi-elem 
+    <dot-navi-elem
       v-for="(n, index) in 3"
       :key="index"
       :href="linksIDs[index]"

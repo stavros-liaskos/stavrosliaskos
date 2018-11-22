@@ -8,7 +8,7 @@ export var port = null
 export var baseURL = null
 
 // Init Nuxt.js and start listening at http://localhost:4000
-test.before('Init Nuxt.js', async t => {
+test.before('Init Nuxt.js', async () => {
   // Explicitly override BABEL_ENV='production' here because
   // ava sets NODE_ENV='test' which breaks babel-preset-vue-app,
   // which in turn breaks uglify-js, which breaks our build.
@@ -36,7 +36,7 @@ test('Route / exits and render HTML with CSS applied', async t => {
 })
 
 // Teardown
-test.after.always('Shutdown Nuxt.js server', async t => {
+test.after.always('Shutdown Nuxt.js server', async () => {
   nuxt.close()
 })
 
