@@ -7639,7 +7639,7 @@ nuxt-sass-resources-loader@^2.0.5:
   dependencies:
     sass-resources-loader "^1.3.1"
 
-nuxt@^2.2.0:
+nuxt@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.3.2.tgz#5273f85212482d4f23ec7bbd1b0e7e18a1d8e423"
   integrity sha512-B4RlsLP3gswtOwszhUBFvAkFBrTH2bv/8PzwPsQ07neaWh/k8d2VGt00vTYW5vOA2MftalY8faS6cQl9IrVV2A==
