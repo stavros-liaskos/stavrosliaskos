@@ -5,9 +5,9 @@
     <h1 class="desc-title z-3">Hi, I'm Stavros.</h1>
     <h2 class="desc-title h1 z-3">I design & build</h2>
 
-    <vue-typer
+    <!--<vue-typer
       v-bind="{text: typedTxt}"
-      initial-action="erasing"/>
+      initial-action="erasing"/>-->
 
     <div class="learn-more text-center z-3">
       <a
@@ -19,14 +19,22 @@
       <a
         v-scroll-to="'#expertise'"
         href="#"
-        class="p-3 fas fa-arrow-down bounce h4"
-        aria-label="scroll-down"/>
-    </div>
+        class="p-3 bounce h4"
+        aria-label="scroll-down">
+        <icon-arrow-down
+          :class="['bounce']"/>
+        <a/>
+    </a></div>
   </div>
 </template>
 
 <script>
+import IconArrowDown from '~/components/icons/IconArrowDown'
+
 export default {
+  components: {
+    IconArrowDown
+  },
   computed: {
     typedTxt() {
       return ['websites', 'applications', 'user interfaces']
@@ -72,7 +80,8 @@ export default {
     width: 100%;
   }
 
-  .fas {
+  .fa-arrow-down {
+    width: 15px;
     color: $link_dark;
   }
 

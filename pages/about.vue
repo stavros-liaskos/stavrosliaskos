@@ -12,15 +12,17 @@
     affair with web development. After Erasmus studies, graduating and serving in the army (obligatory), I relocated
     in Berlin and been living here for the last {{ calcTimeInBerlin }}.
     </p>
-    <p>At first I was working full time for
-      <a 
-        href="https://antoni.de/" 
-        target="_blank">antoni GmbH.</a> as a Frontend developer. While I still enjoyed it,
-        I decided to move on to to face new challenges. Right now I am working at
-      <a 
-        href="https://www.sparwelt.de/" 
+    <p>At first I was working for
+      <a
+        href="https://antoni.de/"
+        target="_blank">antoni GmbH</a>, the leading advertisement agency of Mercedes Benz, as a developer.
+        While I still enjoyed it, I decided to move on and join the team of
+      <a
+        href="https://www.sparwelt.de/"
         target="_blank">Sparwelt GmbH</a> (ein Unternehmen der Mediengruppe RTL
         Deutschland) as Frondend developer.</p>
+
+    <p>After that I decided to face new challenges and switched my career to the direction of freelancing.</p>
 
     <p>I love developing performable websites using state of art technologies, focusing on web performance, minimalism
     and user experience.</p>
@@ -28,8 +30,8 @@
     <p>When I am not coding, I spend my time playing the guitar, climbing mountains, travelling and ...cooking!</p>
 
     <p>Let's have a chat
-      <a 
-        href="mailto:hello@stavrosliaskos.com" 
+      <a
+        href="mailto:hello@stavrosliaskos.com"
         target="_blank">
         hello@stavrosliaskos.com
       </a> .

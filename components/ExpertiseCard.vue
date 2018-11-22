@@ -1,25 +1,37 @@
 <template>
   <div class="expertise-card one-third">
-    <i :class="[icon]"/>
-    <h2 class="h1">{{ title }}</h2>
-    <p>{{ desc }}</p>
+    <component :is="iconType">{{ options.title }}</component>
+    <h2 class="h1">{{ options.title }}</h2>
+    <p>{{ options.desc }}</p>
   </div>
 </template>
 
 <script>
+import IconChartLine from '~/components/icons/IconChartLine'
+import IconCode from '~/components/icons/IconCode'
+import IconTachometer from '~/components/icons/IconTachometer'
+import IconUser from '~/components/icons/IconUser'
+import IconLightbulb from '~/components/icons/IconLightbulb'
+import IconSpaceShuttle from '~/components/icons/IconSpaceShuttle'
+
 export default {
+  components: {
+    IconChartLine,
+    IconCode,
+    IconTachometer,
+    IconUser,
+    IconLightbulb,
+    IconSpaceShuttle
+  },
   props: {
-    title: {
-      type: String,
+    options: {
+      type: Object,
       required: true
-    },
-    icon: {
-      type: String,
-      required: true
-    },
-    desc: {
-      type: String,
-      required: true
+    }
+  },
+  computed: {
+    iconType() {
+      return this.options.svg
     }
   }
 }
@@ -39,8 +51,9 @@ $expertise_icons_color: $color_primary;
     padding: $space_2;
   }
 
-  .fas {
-    font-size: $expertise_icons_size;
+  .svg-inline--fa {
+    width: 70px;
+    height: 70px;
     color: $expertise_icons_color;
   }
 }

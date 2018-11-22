@@ -1,6 +1,6 @@
 <template>
-  <div 
-    id="expertise" 
+  <div
+    id="expertise"
     class="expertise section z-3">
 
     <headline-animated
@@ -9,14 +9,12 @@
 
     <p class="m-b-6">{{ expetiseMainContent.desc }}</p>
 
-    <div 
+    <div
       v-if="expertiseCards.length"
       class="expertise-card-container">
       <expertise-card
         v-for="(expertiseCard, index) in expertiseCards"
-        :icon="expertiseCard.icon"
-        :title="expertiseCard.title"
-        :desc="expertiseCard.desc"
+        :options="expertiseCard"
         :key="index"
       />
     </div>

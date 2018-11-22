@@ -53,25 +53,18 @@ export default {
 
     fontFaceLoader() {
       // Font loading: https://github.com/zeit/next.js/issues/512
-      const robotoUrl = 'https://fonts.googleapis.com/css?family=Roboto+Mono',
-        fontAwesomeUrl =
-          'https://use.fontawesome.com/releases/v5.0.6/css/all.css'
+      const robotoUrl = 'https://fonts.googleapis.com/css?family=Roboto+Mono'
 
       let linkRoboto = document.createElement('link'),
-        linkFontAwesome = document.createElement('link'),
-        roboto = new FontFaceObserver('Roboto'),
-        fontAwesome = new FontFaceObserver('FontAwesome')
+        roboto = new FontFaceObserver('Roboto')
 
       linkRoboto.href = robotoUrl
       linkRoboto.rel = 'stylesheet'
-      linkFontAwesome.href = fontAwesomeUrl
-      linkFontAwesome.rel = 'stylesheet'
 
       document.head.appendChild(linkRoboto)
-      document.head.appendChild(linkFontAwesome)
 
       // roboto.load().then(() => {
-      Promise.all([roboto.load(), fontAwesome.load()]).then(
+      Promise.all([roboto.load()]).then(
         function() {
           document.documentElement.classList.add('roboto')
         },

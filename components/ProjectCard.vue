@@ -1,13 +1,13 @@
 <template>
   <div class="project-card">
-    <a 
-      :href="[link]" 
-      target="_blank" 
+    <a
+      :href="[link]"
+      target="_blank"
       rel="noopener noreferrer">
       <div class="img-wrapper">
-        <img 
-          v-lazy="`${imgUrl}`" 
-          :alt="[title]" 
+        <img
+          v-lazy="`${imgUrl}`"
+          :alt="[title]"
           class="project-card-img">
       </div>
 
@@ -18,9 +18,7 @@
 
         <div class="title-container">
           <h2 class="text-dark">
-            <i 
-              class="fas fa-dollar-sign" 
-              data-v-1c8e701e=""/>
+            <icon-dollar/>
             {{ title }} </h2>
         </div>
 
@@ -33,7 +31,12 @@
 </template>
 
 <script>
+import IconDollar from '~/components/icons/IconDollar'
+
 export default {
+  components: {
+    IconDollar
+  },
   props: {
     imgUrl: {
       type: String,
@@ -111,7 +114,8 @@ $tech_stack_height: 20px;
     .title-container {
       margin: $space_2 0;
 
-      .fas {
+      .svg-inline--fa {
+        width: 10px;
         transition: visibility 0.5s, opacity 0.5s ease-in-out;
         visibility: hidden;
         opacity: 0;
@@ -134,7 +138,7 @@ $tech_stack_height: 20px;
     }
 
     .title-container {
-      .fas {
+      .svg-inline--fa {
         visibility: visible;
         opacity: 1;
       }

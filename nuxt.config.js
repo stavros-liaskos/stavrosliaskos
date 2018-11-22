@@ -188,6 +188,21 @@ module.exports = {
           })
         )
       }
+
+      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'))
+
+      svgRule.test = /\.(png|jpe?g|gif|webp)$/
+
+      config.module.rules.push({
+        test: /\.svg$/,
+        loader: 'vue-svg-loader',
+        options: {
+          // optional [svgo](https://github.com/svg/svgo) options
+          svgo: {
+            plugins: [{ removeDoctype: true }, { removeComments: true }]
+          }
+        }
+      })
     },
     extractCSS: true
   }
