@@ -76,6 +76,7 @@ yarn deploy
 - what if everytime a user enters, there is another color chosen for links?
 - test og images
 - re-enable prettier
+- upgrade to now v2
 
 
 ## Pages
