@@ -1,6 +1,15 @@
 {
   "projectCards": [
     {
+      "active": true,
+      "imgUrl": "flaconi.png",
+      "title": "Flaconi",
+      "tech": "React.js / JQuery",
+      "desc": "e-Shop",
+      "link": "https://www.flaconi.de/"
+    },
+    {
+      "active": false,
       "imgUrl": "lucky-barber.png",
       "title": "Lucky barber",
       "tech": "React.js / JQuery",
@@ -8,18 +17,52 @@
       "link": "http://www.lucky-barber.com/"
     },
     {
+      "active":  true,
       "imgUrl": "sparwelt.png",
       "title": "Sparwelt",
       "tech": "Symfony / JQuery / Less",
-      "desc": "Coupons e-shop | © Sparwelt GmbH",
+      "desc": "Voucher Portal",
       "link": "https://www.sparwelt.de/"
     },
     {
+      "active":  true,
       "imgUrl": "notes.png",
       "title": "Notes",
       "tech": "MkDocs / Github Pages",
       "desc": "My collection of notes/scripts",
       "link": "https://stavros-liaskos.github.io/notes/"
+    },
+    {
+      "active":  true,
+      "imgUrl": "focus.png",
+      "title": "Focus",
+      "tech": "Symfony / JQuery / Less",
+      "desc": "Voucher Portal",
+      "link": "https://gutscheine.focus.de/"
+    },
+    {
+      "active":  true,
+      "imgUrl": "t-online.png",
+      "title": "T-Online",
+      "tech": "Symfony / JQuery / Less",
+      "desc": "Voucher Portal",
+      "link": "https://gutscheine.t-online.de/"
+    },
+    {
+      "active":  true,
+      "imgUrl": "sulu.png",
+      "title": "Sparwelt",
+      "tech": "Sulu / JQuery / SASS",
+      "desc": "Introduction / B2C",
+      "link": "https://www.sparwelt.de/unternehmen"
+    },
+    {
+      "active":  true,
+      "imgUrl": "giga.png",
+      "title": "Giga",
+      "tech": "Symfony / JQuery / Less",
+      "desc": "Voucher Portal",
+      "link": "http://gutscheine.giga.de/"
     }
   ]
 }

@@ -8,11 +8,13 @@
     <div v-if="projectCards.length" class="project-cards-container">
       <project-card
         v-for="(projectCard, index) in projectCards"
+        v-if="projectCard.active"
         :img-url="projectCard.imgUrl"
         :link="projectCard.link"
         :title="projectCard.title"
         :tech="projectCard.tech"
         :desc="projectCard.desc"
+        :active="projectCard.active"
         :key="index"
       />
     </div>

@@ -20,14 +20,15 @@
       At first I was working for
       <a href="https://antoni.de/" target="_blank">antoni GmbH</a>, the leading
       advertisement agency of Mercedes Benz, as a developer. While I still
-      enjoyed it, I decided to move on and join the team of
+      enjoyed, I decided to move on and join the team of
       <a href="https://www.sparwelt.de/" target="_blank">Sparwelt GmbH</a> (ein
       Unternehmen der Mediengruppe RTL Deutschland) as Frondend developer.
     </p>
 
     <p>
-      After that I decided to face new challenges and switched my career to the
-      direction of freelancing.
+      After that and some freelancing adventures, I decided to continue with a client I was working at that time:
+      <a href="https://www.flaconi.de/">Flaconi GmbH</a>, the number one destination for beauty products, where
+      I am currently employed.
     </p>
 
     <p>
