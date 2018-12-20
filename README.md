@@ -78,7 +78,7 @@ yarn deploy
 - re-enable prettier
 - future link
 - add tsipiripo website
-- upgrade to now v2
+- make it IE11 compatible
 
 
 ## Pages
