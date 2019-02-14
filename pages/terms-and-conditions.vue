@@ -1,7 +1,7 @@
 <template>
   <div class="section z-3 privacy-policy">
     <h1 class="title m-b-3 text-center">
-      Terms and Conditions ("Terms")<br >
+      Terms and Conditions ("Terms")<br>
     </h1>
 
     <p>Last updated: May 27, 2018</p>

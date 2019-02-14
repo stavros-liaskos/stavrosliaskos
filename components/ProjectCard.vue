@@ -2,7 +2,7 @@
   <div class="project-card">
     <a :href="[link]" target="_blank" rel="noopener noreferrer">
       <div class="img-wrapper">
-        <img v-lazy="`${imgUrl}`" :alt="[title]" class="project-card-img" >
+        <img v-lazy="`${imgUrl}`" :alt="[title]" class="project-card-img">
       </div>
 
       <div class="texts-container">

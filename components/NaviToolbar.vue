@@ -6,7 +6,9 @@
 
       <burger />
 
-      <div class="social-links"><social-links /></div>
+      <div class="social-links">
+        <social-links />
+      </div>
 
       <span class="version text-light">{{ version }}</span>
     </div>

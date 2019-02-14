@@ -23,7 +23,7 @@ export default {
 
   data() {
     return {
-      index: 1,
+      indexDot: 1,
       active: 1,
       linksIDs: ['#description', '#expertise', '#portfolio']
     }
@@ -45,7 +45,7 @@ export default {
 @include breakpoint($breakpoint_screen_md) {
   .dot-side-nav {
     display: block;
-    position: fixed !important; // makes sure that position:relative from .z-2 is overwritten
+    position: fixed !important; // ensure position:relative from .z-2 is overwritten
     bottom: 45%;
     right: $space_3;
   }

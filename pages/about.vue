@@ -7,7 +7,7 @@
 
     <h4>Hi, I am Stavros.</h4>
 
-    <br >
+    <br>
     <p>
       In the spring of 2009, during my second year at University of Crete, I
       took a web design course where we were assigned the task of building both

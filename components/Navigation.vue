@@ -4,7 +4,9 @@
 
     <div class="menu-container">
       <div class="menu-wrapper">
-        <div class="">Hover me:</div>
+        <div class="">
+          Hover me:
+        </div>
 
         <ul class="menu-list">
           <li class="menu-item">
@@ -12,7 +14,8 @@
               class="item-link text-light underline h1 flip"
               to="/"
               @click.native="toggleMenu()"
-            >Home
+            >
+              Home
             </nuxt-link>
           </li>
 
@@ -21,7 +24,8 @@
               class="item-link text-light underline h1 flip"
               to="/about"
               @click.native="toggleMenu()"
-            >About
+            >
+              About
             </nuxt-link>
           </li>
 
@@ -30,7 +34,8 @@
               class="item-link text-light underline h1 flip"
               to="/contact"
               @click.native="toggleMenu()"
-            >Contact
+            >
+              Contact
             </nuxt-link>
           </li>
         </ul>

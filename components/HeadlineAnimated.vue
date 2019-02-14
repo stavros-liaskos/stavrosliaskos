@@ -1,5 +1,7 @@
 <template>
-  <h2 class="h1" @mouseover="animate">{{ content }}</h2>
+  <h2 class="h1" @mouseover="animate">
+    {{ content }}
+  </h2>
 </template>
 
 <script>

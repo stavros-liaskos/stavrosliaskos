@@ -3,7 +3,9 @@
     <navigation />
 
     <div class="app-wrapper">
-      <div class="container"><nuxt /></div>
+      <div class="container">
+        <nuxt />
+      </div>
 
       <footer-bar />
     </div>

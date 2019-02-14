@@ -5,13 +5,15 @@
       :content="expetiseMainContent.title"
     />
 
-    <p class="m-b-6">{{ expetiseMainContent.desc }}</p>
+    <p class="m-b-6">
+      {{ expetiseMainContent.desc }}
+    </p>
 
     <div v-if="expertiseCards.length" class="expertise-card-container">
       <expertise-card
         v-for="(expertiseCard, index) in expertiseCards"
-        :options="expertiseCard"
         :key="index"
+        :options="expertiseCard"
       />
     </div>
   </div>

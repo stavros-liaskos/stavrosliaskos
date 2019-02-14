@@ -1,7 +1,11 @@
 <template>
   <div class="expertise-card one-third">
-    <component :is="iconType">{{ options.title }}</component>
-    <h2 class="h1">{{ options.title }}</h2>
+    <component :is="iconType">
+      {{ options.title }}
+    </component>
+    <h2 class="h1">
+      {{ options.title }}
+    </h2>
     <p>{{ options.desc }}</p>
   </div>
 </template>

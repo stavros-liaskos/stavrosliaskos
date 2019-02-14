@@ -1,6 +1,8 @@
 <template>
   <div class="section z-3 privacy-policy">
-    <h1 class="title m-b-3 text-center">Privacy Policy <br ></h1>
+    <h1 class="title m-b-3 text-center">
+      Privacy Policy <br>
+    </h1>
 
     <p>Last updated: May 27, 2018</p>
 
@@ -24,7 +26,9 @@
     <h4>Terms and Conditions</h4>
     <p>
       Please also visit our
-      <nuxt-link to="/terms-and-conditions">Terms and Conditions</nuxt-link>
+      <nuxt-link to="/terms-and-conditions">
+        Terms and Conditions
+      </nuxt-link>
       section establishing the use, disclaimers and limitations of liability
       governing the use of this website.
     </p>
@@ -32,7 +36,9 @@
     <h4>Your Consent</h4>
     <p>
       By using our site, you consent to our
-      <nuxt-link to="/privacy-policy">privacy policy.</nuxt-link>
+      <nuxt-link to="/privacy-policy">
+        privacy policy.
+      </nuxt-link>
     </p>
 
     <h4>Changes to our Privacy Policy</h4>

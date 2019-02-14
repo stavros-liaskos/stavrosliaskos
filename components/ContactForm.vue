@@ -13,7 +13,7 @@
     <form id="contact_form" action="" @submit.prevent="submitForm">
       <div class="top">
         <div class="form-group  flex-item">
-          <label for="name">Name: </label> <br >
+          <label for="name">Name: </label> <br>
           <!--
             v-model link to the model (i.e. pieces of the data section of vue.js)
           -->
@@ -31,7 +31,7 @@
         </div>
 
         <div class="form-group flex-item">
-          <label for="email">Email: </label> <br >
+          <label for="email">Email: </label> <br>
           <input
             v-model="email"
             class="form-control"
@@ -43,14 +43,10 @@
       </div>
 
       <div class="form-group">
-        <label for="message"
-        >Message
-          <small
-          >(<span>{{ message.length }}</span> / <span>{{ maxLength }}</span
-          >):</small
-          >
+        <label for="message">Message
+          <small>(<span>{{ message.length }}</span> / <span>{{ maxLength }}</span>):</small>
         </label>
-        <br >
+        <br>
         <textarea
           v-model="message"
           class="form-control"
@@ -59,7 +55,9 @@
         />
       </div>
 
-      <button type="submit">Send it!</button>
+      <button type="submit">
+        Send it!
+      </button>
     </form>
   </div>
 </template>
