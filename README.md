@@ -77,6 +77,7 @@ yarn deploy
 - test og images
 - re-enable prettier
 - future link
+- fix sitemap
 - add tsipiripo website
 - make it IE11 compatible
 
@@ -86,10 +87,11 @@ yarn deploy
 /about   
 /contact   
 /privacy-policy   
+/terms-and-conditions   
 /404   
 
 ## Ranking
-Google Audits:
+Lighthouse Audits:
 > Mobile
 > - 100 Performance 
 > - 55 PWA          
