@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style lang="scss">
-.navi-toolbar {
+  @import "../assets/styles";.navi-toolbar {
   position: fixed;
   top: 0;
   bottom: unset;

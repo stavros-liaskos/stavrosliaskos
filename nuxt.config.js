@@ -204,6 +204,6 @@ module.exports = {
         }
       })
     },
-    extractCSS: true
+    extractCSS: false
   }
 }

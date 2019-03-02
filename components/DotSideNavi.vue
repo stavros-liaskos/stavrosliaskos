@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style lang="scss">
-.dot-side-nav {
+  @import "../assets/styles";.dot-side-nav {
   display: none;
 }
 

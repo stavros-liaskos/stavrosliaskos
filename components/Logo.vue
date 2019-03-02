@@ -25,7 +25,7 @@
 </template>
 
 <style lang="scss">
-.logo {
+  @import "../assets/styles";.logo {
   fill: $text_light;
 }
 </style>

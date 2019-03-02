@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss">
-.contact {
+  @import "../assets/styles";.contact {
   display: flex;
   justify-content: center;
   flex-direction: column;

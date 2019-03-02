@@ -58,7 +58,7 @@ export default {
 </script>
 
 <style lang="scss">
-// Card spacing
+  @import "../assets/styles";// Card spacing
 $card_height: 350px;
 $card_bg_color: $color_white;
 $anim-time: 0.3s;

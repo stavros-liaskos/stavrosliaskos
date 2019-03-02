@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style lang="scss">
-$expertise_icons_color: $color_primary;
+  @import "../assets/styles";$expertise_icons_color: $color_primary;
 
 .one-third {
   width: 100%;

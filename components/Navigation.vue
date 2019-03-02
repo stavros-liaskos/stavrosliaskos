@@ -77,7 +77,7 @@ export default {
 </script>
 
 <style lang="scss">
-$navi_slide_out_time: 0.8s;
+  @import "../assets/styles";$navi_slide_out_time: 0.8s;
 
 .navigation {
   background: $color_black;

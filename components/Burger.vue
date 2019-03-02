@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss">
-// Burger menu variables
+  @import "../assets/styles";// Burger menu variables
 $burger_menu_width: $space_5;
 $burger_menu_height: 24px;
 $burger_menu_line_height_device: 1px;

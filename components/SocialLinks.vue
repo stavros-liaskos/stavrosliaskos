@@ -83,7 +83,7 @@ export default {
 </script>
 
 <style lang="scss">
-.social-links {
+  @import "../assets/styles";.social-links {
   display: none;
 }
 

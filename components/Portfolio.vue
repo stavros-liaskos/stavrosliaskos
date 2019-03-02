@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style lang="scss">
-.portfolio {
+  @import "../assets/styles";.portfolio {
   .project-cards-container {
     display: flex;
     flex-wrap: wrap;

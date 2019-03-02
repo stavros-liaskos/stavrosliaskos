@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss">
-// Dot elem variables
+  @import "../assets/styles";// Dot elem variables
 $dot_wrapper_width: 17px;
 $dot_wrapper_height: $dot_wrapper_width;
 $dot_el_color: $color_dark_grey;

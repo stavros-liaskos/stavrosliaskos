@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss">
-.expertise {
+  @import "../assets/styles";.expertise {
   text-align: center;
 
   .expertise-card-container {
