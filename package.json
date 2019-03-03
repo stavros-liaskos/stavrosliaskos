@@ -16,6 +16,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "private": true,
   "scripts": {
+    "postinstall": "./node_modules/.bin/node-pre-gyp rebuild",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
