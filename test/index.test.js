@@ -32,7 +32,9 @@ test('Route / exits and render HTML with CSS applied', async t => {
   const window = await nuxt.renderAndGetWindow('http://localhost:4000/')
   const element = window.document.querySelector('.desc-title')
   t.not(element, null)
-  t.is(element.textContent, "Hi, I'm Stavros.")
+  t.is(element.textContent, "\n" +
+      "    Hi, I'm Stavros.\n" +
+      "  ")
 })
 
 // Teardown
@@ -42,3 +44,4 @@ test.after.always('Shutdown Nuxt.js server', async () => {
 
 // https://github.com/babel/babel-preset-env/issues/186
 // https://github.com/vuejs/babel-preset-vue-app/issues/12#issue-274011724
+// https://github.com/Automattic/node-canvas/issues/284#issuecomment-286328662
