@@ -1,5 +1,6 @@
 <template>
   <div id="description" class="description section">
+    <!-- eslint-disable-next-line -->
     <h1 class="desc-title z-3">Hi, I'm Stavros.</h1>
     <h2 class="desc-title h1 z-3">
       I design & build
