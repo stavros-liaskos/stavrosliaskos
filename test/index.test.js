@@ -32,9 +32,7 @@ test('Route / exits and render HTML with CSS applied', async t => {
   const window = await nuxt.renderAndGetWindow('http://localhost:4000/')
   const element = window.document.querySelector('.desc-title')
   t.not(element, null)
-  t.is(element.textContent, "\n" +
-      "    Hi, I'm Stavros.\n" +
-      "  ")
+  t.is(element.textContent, "Hi, I'm Stavros.")
 })
 
 // Teardown
