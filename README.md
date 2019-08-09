@@ -43,7 +43,7 @@ You can visit the [website](https://realfavicongenerator.net) for info AND for t
 [Source](https://realfavicongenerator.net)
 
 ## Now
-Deploy `master` with now to https://stavros.online/:
+Deploy `master` with now to https://stavrosliaskos.com/:
 ```shell
 yarn deploy
 ```
