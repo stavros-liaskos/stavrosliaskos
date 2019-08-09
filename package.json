@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.4.4",
-    "@nuxtjs/sitemap": "1.0.0",
+    "@nuxtjs/sitemap": "1.2.0",
     "ava": "2.2.0",
     "babel-eslint": "^10.0.1",
     "babel-preset-env": "^1.7.0",
