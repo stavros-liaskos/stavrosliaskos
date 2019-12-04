@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="social-links">
     <li>
       <a
         href="https://github.com/stavros-liaskos"
@@ -50,15 +50,6 @@
         <icon-xing />
       </a>
     </li>
-    <li>
-      <a
-        href="mailto:hello@stavrosliaskos.com"
-        target="_blank"
-        aria-label="email"
-      >
-        <icon-mail />
-      </a>
-    </li>
   </ul>
 </template>
 
@@ -68,7 +59,6 @@ import IconBitbucket from '~/components/icons/IconBitbucket'
 import IconCodepen from '~/components/icons/IconCodepen'
 import IconLinkedin from '~/components/icons/IconLinkedin'
 import IconXing from '~/components/icons/IconXing'
-import IconMail from '~/components/icons/IconMail'
 
 export default {
   components: {
@@ -76,36 +66,28 @@ export default {
     IconBitbucket,
     IconCodepen,
     IconLinkedin,
-    IconXing,
-    IconMail
+    IconXing
   }
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.social-links {
-  display: none;
-}
+  @import "../assets/styles";
 
 @include breakpoint($breakpoint_screen_md) {
-  .social-links {
-    display: block;
-    position: absolute;
-    bottom: $space_8;
-    left: 0;
-    text-align: center;
-    margin-left: $space_2;
-
-    .svg-inline--fa {
-      width: 30px;
-      animation: pulse-color 12s infinite alternate;
-      margin-bottom: $space_1;
-      cursor: pointer;
-      @include zoom(
-        $navi_toolbar_initial_icons_size,
-        $navi_toolbar_final_icons_size
-      );
+    .social-links {
+        li {
+            width: 30px;
+            svg {
+                animation: pulse-color 12s infinite alternate;
+                margin-bottom: $space_1;
+                cursor: pointer;
+                @include zoom(
+                  $navi_toolbar_initial_icons_size,
+                  $navi_toolbar_final_icons_size
+                );
+            }
+        }
     }
   }
-}
 </style>
