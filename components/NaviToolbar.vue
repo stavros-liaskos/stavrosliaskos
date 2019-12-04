@@ -6,7 +6,7 @@
 
       <burger />
 
-      <div class="social-links">
+      <div class="social-links-wrapper">
         <social-links />
       </div>
 
@@ -37,7 +37,12 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.navi-toolbar {
+  @import "../assets/styles";
+  .social-links-wrapper {
+    display: none;
+  }
+
+  .navi-toolbar {
   position: fixed;
   top: 0;
   bottom: unset;
@@ -75,6 +80,15 @@ export default {
       position: absolute;
       bottom: 0;
       left: 0;
+    }
+
+    .social-links-wrapper {
+      display: block;
+      position: absolute;
+      bottom: $space_8;
+      left: 0;
+      text-align: center;
+      margin-left: $space_2;
     }
   }
 }
