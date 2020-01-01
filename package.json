@@ -59,7 +59,7 @@
     "hint": "5.4.1",
     "jsdom": "15.2.1",
     "node-sass": "4.13.0",
-    "nodemon": "2.0.1",
+    "nodemon": "2.0.2",
     "nuxt-sass-resources-loader": "2.0.5",
     "prettier": "1.19.1",
     "purgecss-webpack-plugin": "1.6.0",
