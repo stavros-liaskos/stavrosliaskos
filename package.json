@@ -40,7 +40,6 @@
     "vue-typer": "1.2.0"
   },
   "devDependencies": {
-    "@babel/polyfill": "7.8.3",
     "@nuxtjs/sitemap": "2.0.1",
     "babel-eslint": "10.0.3",
     "babel-preset-env": "1.7.0",
