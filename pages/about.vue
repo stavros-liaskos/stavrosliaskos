@@ -40,14 +40,6 @@
       When I am not coding, I spend my time playing the guitar, climbing
       mountains, travelling and ...cooking!
     </p>
-
-    <p>
-      Let's have a chat
-      <a href="mailto:hello@stavrosliaskos.com" target="_blank">
-        hello@stavrosliaskos.com
-      </a>
-      .
-    </p>
   </div>
 </template>
 

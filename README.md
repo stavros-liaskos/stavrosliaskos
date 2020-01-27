@@ -4,9 +4,7 @@
 
 > My Nuxt.js based developer website
 
-[![Build Status](https://travis-ci.org/stavros-liaskos/stavrosliaskos.svg?branch=master)](https://travis-ci.org/stavros-liaskos/stavrosliaskos)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=stavros-liaskos/stavrosliaskos)](https://dependabot.com)
-[![Coverage Status](https://coveralls.io/repos/github/stavros-liaskos/stavrosliaskos/badge.svg?branch=master)](https://coveralls.io/github/stavros-liaskos/stavrosliaskos?branch=master)
 
 ## Build Setup
 
@@ -69,7 +67,6 @@ yarn deploy
 - disable horizontal scrolling in iphone
 - horizontal list and scrolling project cards in device mode 
 - 404 page doesn't work on production (-> because it's deployed as a spa)
-- [fix coverage ](https://nuxtjs.org/examples/testing/)
 - [add some headers](https://pwa.nuxtjs.org/modules/meta.html)
 - redirect domain to use production heroku and take full advantage of nuxt features
 - maybe give [this](https://github.com/shshaw/splitting/) a try? looks fancy
