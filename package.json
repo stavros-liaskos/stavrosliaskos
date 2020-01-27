@@ -26,14 +26,13 @@
     "hint": "./node_modules/hint/dist/src/bin/hint.js https://stavrosliaskos.com",
     "precommit": "yarn lint",
     "postcommit": "yarn deploy",
-    "test": "ava --serial --verbose",
     "deploy": "yarn lintfix && now rm -y stavrosliaskos && now",
     "now-build": "nuxt build --spa",
     "favicon-gen": "real-favicon generate faviconDescription.json faviconData.json static/favicon"
   },
   "dependencies": {
     "cross-env": "7.0.0",
-    "nuxt": "^2.11.0",
+    "nuxt": "2.11.0",
     "vue-lazyload": "1.3.3",
     "vue-particles": "1.0.9",
     "vue-router": "3.1.5",
@@ -43,7 +42,6 @@
   "devDependencies": {
     "@babel/polyfill": "7.8.3",
     "@nuxtjs/sitemap": "2.0.1",
-    "ava": "3.1.0",
     "babel-eslint": "10.0.3",
     "babel-preset-env": "1.7.0",
     "babel-register": "6.26.0",
@@ -57,7 +55,6 @@
     "fontfaceobserver": "2.1.0",
     "glob-all": "3.1.0",
     "hint": "6.0.3",
-    "jsdom": "16.0.1",
     "node-sass": "4.13.1",
     "nodemon": "2.0.2",
     "nuxt-sass-resources-loader": "2.0.5",
@@ -65,12 +62,6 @@
     "purgecss-webpack-plugin": "2.0.5",
     "sass-loader": "8.0.2",
     "vue-svg-loader": "0.15.0"
-  },
-  "ava": {
-    "require": [
-      "babel-register",
-      "@babel/polyfill"
-    ]
   },
   "babel": {
     "presets": [
