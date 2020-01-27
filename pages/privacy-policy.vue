@@ -17,8 +17,8 @@
       I do not sell, trade or transfer to outside parties any information. This
       does not include trusted third parties who assist in operating this
       website, so long as those parties agree to keep this information
-      confidential (provider:
-      <a href="https://cmslauncher.com/" rel="noreferrer">CMS Launcher</a>). No
+      confidential (static host:
+      <a href="https://zeit.co/" rel="noreferrer">zeit.co</a>). No
       personally identifiable visitor information may be provided to other
       parties for marketing, advertising, or other uses.
     </p>
@@ -50,11 +50,7 @@
     <h4>Contacting Us</h4>
     <p>
       If there are any questions regarding this privacy policy, you may contact
-      me at:
-      <a href="mailto:hello@stavrosliaskos.com" target="_blank">
-        hello@stavrosliaskos.com
-      </a>
-      .
+      me at one of my social profiles.
     </p>
   </div>
 </template>
