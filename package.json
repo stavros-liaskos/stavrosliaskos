@@ -47,7 +47,7 @@
     "breakpoint-sass": "2.7.1",
     "cli-real-favicon": "0.0.8",
     "eslint": "6.8.0",
-    "eslint-config-prettier": "6.9.0",
+    "eslint-config-prettier": "6.10.0",
     "eslint-loader": "3.0.3",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-vue": "6.1.2",
@@ -58,9 +58,9 @@
     "nodemon": "2.0.2",
     "nuxt-sass-resources-loader": "2.0.5",
     "prettier": "1.19.1",
-    "purgecss-webpack-plugin": "2.0.5",
+    "purgecss-webpack-plugin": "2.0.6",
     "sass-loader": "8.0.2",
-    "vue-svg-loader": "0.15.0"
+    "vue-svg-loader": "0.16.0"
   },
   "babel": {
     "presets": [
