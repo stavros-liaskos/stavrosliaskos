@@ -58,7 +58,7 @@
     "nodemon": "2.0.2",
     "nuxt-sass-resources-loader": "2.0.5",
     "prettier": "1.19.1",
-    "purgecss-webpack-plugin": "2.0.6",
+    "purgecss-webpack-plugin": "2.3.0",
     "sass-loader": "8.0.2",
     "vue-svg-loader": "0.16.0"
   },
