@@ -26,9 +26,10 @@
     </p>
 
     <p>
-      After that and some freelancing adventures, I decided to continue with a client I was working at that time:
-      <a href="https://www.flaconi.de/">Flaconi GmbH</a>, the number one destination for beauty products, where
-      I am currently employed.
+      After that and some freelancing adventures, I decided to continue with a
+      client I was working at that time:
+      <a href="https://www.flaconi.de/">Flaconi GmbH</a>, the number one
+      destination for beauty products, where I am currently employed.
     </p>
 
     <p>
@@ -48,7 +49,7 @@ import HeadlineAnimated from '~/components/HeadlineAnimated'
 
 export default {
   components: {
-    HeadlineAnimated
+    HeadlineAnimated,
   },
 
   computed: {
@@ -71,7 +72,7 @@ export default {
       }
 
       return message
-    }
-  }
+    },
+  },
 }
 </script>

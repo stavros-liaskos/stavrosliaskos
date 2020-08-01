@@ -3,8 +3,8 @@
     <headline-animated :class="['text-center']" :content="'Let\'s talk'" />
 
     <p class="desc text-center">
-      Do you want to tell me something amazing? Do you have any questions?
-      Don't hesitate to contact me at my social profiles
+      Do you want to tell me something amazing? Do you have any questions? Don't
+      hesitate to contact me at my social profiles
     </p>
   </div>
 </template>
@@ -14,13 +14,14 @@ import HeadlineAnimated from '~/components/HeadlineAnimated'
 
 export default {
   components: {
-    HeadlineAnimated
-  }
+    HeadlineAnimated,
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.contact {
+@import '../assets/styles';
+.contact {
   display: flex;
   justify-content: center;
   flex-direction: column;

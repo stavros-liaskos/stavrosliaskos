@@ -13,7 +13,7 @@ export default {
   components: {
     Description,
     Expertise,
-    Portfolio
-  }
+    Portfolio,
+  },
 }
 </script>

@@ -13,6 +13,7 @@ const headTitle = 'Stavros Liaskos // Frontend Developer',
   ogImageHeight = '898'
 
 module.exports = {
+  telemetry: false,
   mode: 'spa',
 
   /*
@@ -20,7 +21,7 @@ module.exports = {
    */
   head: {
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     title: headTitle,
     meta: [
@@ -32,71 +33,71 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: headDescription
-      }
+        content: headDescription,
+      },
     ],
     link: [
       { rel: 'canonical', href: 'https://stavrosliaskos.com/' },
       {
         rel: 'apple-touch-icon',
         sizes: '76x76',
-        href: './favicon/apple-touch-icon.png'
+        href: './favicon/apple-touch-icon.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: './favicon/favicon-32x32.png'
+        href: './favicon/favicon-32x32.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: './favicon/favicon-16x16.png'
+        href: './favicon/favicon-16x16.png',
       },
       { rel: 'manifest', href: './favicon/site.webmanifest' },
       {
         rel: 'mask-icon',
         color: '#000000',
-        href: './favicon/safari-pinned-tab.svg'
+        href: './favicon/safari-pinned-tab.svg',
       },
       { rel: 'shortcut icon', href: './favicon/favicon.ico' },
       {
         hid: `og:title`,
         property: 'og:title',
-        content: headTitle
+        content: headTitle,
       },
       {
         hid: `og:description`,
         property: 'og:description',
-        content: headDescription
+        content: headDescription,
       },
       {
         hid: `og:type`,
         property: 'og:type',
-        content: ogType
+        content: ogType,
       },
       {
         hid: `og:url`,
         property: 'og:url',
-        content: ogUrl
+        content: ogUrl,
       },
       {
         hid: `og:image`,
         property: 'og:image',
-        content: ogImage
+        content: ogImage,
       },
       {
         hid: `og:image:width`,
         property: 'og:image:width',
-        content: ogImageWidth
+        content: ogImageWidth,
       },
       {
         hid: `og:image:height`,
         property: 'og:image:height',
-        content: ogImageHeight
-      }
-    ]
+        content: ogImageHeight,
+      },
+    ],
   },
 
   /*
@@ -117,8 +118,8 @@ module.exports = {
       { url: '/about', changefreq: 'daily' },
       { url: '/contact', changefreq: 'daily' },
       { url: '/privacy-policy', changefreq: 'daily' },
-      { url: '/terms-and-conditions', changefreq: 'daily' }
-    ]
+      { url: '/terms-and-conditions', changefreq: 'daily' },
+    ],
   },
 
   /*
@@ -138,7 +139,7 @@ module.exports = {
     { src: '~/plugins/vue-scrollto' },
     { src: '~/plugins/vue-particles', ssr: false },
     { src: '~/plugins/vue-typer', ssr: false },
-    { src: '~/plugins/vue-lazyload', ssr: false }
+    { src: '~/plugins/vue-lazyload', ssr: false },
   ],
 
   /*
@@ -151,9 +152,9 @@ module.exports = {
     [
       'nuxt-sass-resources-loader',
       {
-        resources: './assets/styles.scss'
-      }
-    ]
+        resources: './assets/styles.scss',
+      },
+    ],
   ],
 
   /*
@@ -170,7 +171,7 @@ module.exports = {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
         })
       }
 
@@ -182,14 +183,14 @@ module.exports = {
             paths: glob.sync([
               path.join(__dirname, './pages/**/*.vue'),
               path.join(__dirname, './layouts/**/*.vue'),
-              path.join(__dirname, './components/**/*.vue')
+              path.join(__dirname, './components/**/*.vue'),
             ]),
-            whitelist: ['html', 'body']
+            whitelist: ['html', 'body'],
           })
         )
       }
 
-      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'))
+      const svgRule = config.module.rules.find((rule) => rule.test.test('.svg'))
 
       svgRule.test = /\.(png|jpe?g|gif|webp)$/
 
@@ -199,11 +200,11 @@ module.exports = {
         options: {
           // optional [svgo](https://github.com/svg/svgo) options
           svgo: {
-            plugins: [{ removeDoctype: true }, { removeComments: true }]
-          }
-        }
+            plugins: [{ removeDoctype: true }, { removeComments: true }],
+          },
+        },
       })
     },
-    extractCSS: false
-  }
+    extractCSS: false,
+  },
 }

@@ -18,27 +18,28 @@ import DotNaviElem from '~/components/DotNaviElem.vue'
 
 export default {
   components: {
-    DotNaviElem
+    DotNaviElem,
   },
 
   data() {
     return {
       indexDot: 1,
       active: 1,
-      linksIDs: ['#description', '#expertise', '#portfolio']
+      linksIDs: ['#description', '#expertise', '#portfolio'],
     }
   },
 
   methods: {
     setActive(index) {
       this.active = index
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.dot-side-nav {
+@import '../assets/styles';
+.dot-side-nav {
   display: none;
 }
 

@@ -24,23 +24,24 @@ import ExpertiseCard from '~/components/ExpertiseCard.vue'
 import HeadlineAnimated from '~/components/HeadlineAnimated'
 import {
   expertiseCards,
-  expetiseMainContent
+  expetiseMainContent,
 } from '~/assets/data/expertise.json'
 
 export default {
   components: {
     ExpertiseCard,
-    HeadlineAnimated
+    HeadlineAnimated,
   },
 
   data() {
     return { expertiseCards, expetiseMainContent }
-  }
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.expertise {
+@import '../assets/styles';
+.expertise {
   text-align: center;
 
   .expertise-card-container {

@@ -30,35 +30,35 @@ import IconDollar from '~/components/icons/IconDollar'
 
 export default {
   components: {
-    IconDollar
+    IconDollar,
   },
   props: {
     imgUrl: {
       type: String,
-      required: true
+      required: true,
     },
     title: {
       type: String,
-      required: true
+      required: true,
     },
     tech: {
       type: String,
-      required: true
+      required: true,
     },
     desc: {
       type: String,
-      required: true
+      required: true,
     },
     link: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";// Card spacing
+@import '../assets/styles'; // Card spacing
 $card_height: 350px;
 $card_bg_color: $color_white;
 $anim-time: 0.3s;

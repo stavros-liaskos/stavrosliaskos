@@ -12,7 +12,7 @@
     -->
     <form id="contact_form" action="" @submit.prevent="submitForm">
       <div class="top">
-        <div class="form-group  flex-item">
+        <div class="form-group flex-item">
           <label for="name">Name: </label> <br>
           <!--
             v-model link to the model (i.e. pieces of the data section of vue.js)
@@ -69,36 +69,36 @@ export default {
       name: '', // data for the name on the form
       email: '', // data for the email on the form
       message: '', // data for the message on the form
-      maxLength: 300 // maximum length of the form message
+      maxLength: 300, // maximum length of the form message
     }
   },
 
   methods: {
     // all the actions our app can do
-    isValidName: function() {
+    isValidName: function () {
       // TODO what if name is just spaces?
       var valid = this.name.length > 0
       console.log('checking for a valid name: ' + valid)
       return valid
     },
-    isValidEmail: function() {
+    isValidEmail: function () {
       // TODO is a@b a valid email?
       var valid = this.email.indexOf('@') > 0
       console.log('checking for a valid email: ' + valid)
       return valid
     },
-    isValidMessage: function() {
+    isValidMessage: function () {
       // what is message is just spaces?
       var valid =
         this.message.length > 0 && this.message.length < this.maxLength
       console.log('checking for a valid message: ' + valid)
       return valid
     },
-    checkMessage: function() {
+    checkMessage: function () {
       // TODO keep the message below maxMessageLength?
       //      or maybe change the text, background, or counter color?
     },
-    submitForm: function() {
+    submitForm: function () {
       // TODO prevent form from submitting if name, email, or message
       //      are invalid and display message
       // TODO submit to form processor
@@ -109,23 +109,24 @@ export default {
         data: {
           name: this.name,
           email: this.email,
-          message: this.message
-        }
+          message: this.message,
+        },
       }).then(
-        function() {
+        function () {
           alert('Your form was submitted!')
         },
-        function() {
+        function () {
           alert('Form submission failed')
         }
       )
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.form-container {
+@import '../assets/styles';
+.form-container {
   width: 100%;
   margin: auto;
 
