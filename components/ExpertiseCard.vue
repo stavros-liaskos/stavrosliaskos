@@ -25,24 +25,25 @@ export default {
     IconTachometer,
     IconUser,
     IconLightbulb,
-    IconSpaceShuttle
+    IconSpaceShuttle,
   },
   props: {
     options: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
     iconType() {
       return this.options.svg
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";$expertise_icons_color: $color_primary;
+@import '../assets/styles';
+$expertise_icons_color: $color_primary;
 
 .one-third {
   width: 100%;

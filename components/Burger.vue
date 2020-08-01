@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       isNavOpen: false,
-      isHovered: false
+      isHovered: false,
     }
   },
 
@@ -34,13 +34,13 @@ export default {
   methods: {
     clickHandler() {
       this.$root.$emit('toggle.navigation.state', this.isNavOpen) // send event to index page to handle slide effect
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";// Burger menu variables
+@import '../assets/styles'; // Burger menu variables
 $burger_menu_width: $space_5;
 $burger_menu_height: 24px;
 $burger_menu_line_height_device: 1px;

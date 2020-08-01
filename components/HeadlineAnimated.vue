@@ -9,8 +9,8 @@ export default {
   props: {
     content: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
 
   methods: {
@@ -24,8 +24,8 @@ export default {
         },
         false
       )
-    }
-  }
+    },
+  },
 }
 </script>
 

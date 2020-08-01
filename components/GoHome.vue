@@ -12,16 +12,16 @@ import IconUndo from '~/components/icons/IconUndo'
 
 export default {
   components: {
-    IconUndo
+    IconUndo,
   },
   props: {
     property: {
       type: Object,
-      default: function() {
+      default: function () {
         return { textAlign: 'right' }
-      }
-    }
-  }
+      },
+    },
+  },
 }
 </script>
 

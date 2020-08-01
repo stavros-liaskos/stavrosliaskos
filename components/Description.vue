@@ -30,18 +30,18 @@ import IconArrowDown from '~/components/icons/IconArrowDown'
 
 export default {
   components: {
-    IconArrowDown
+    IconArrowDown,
   },
   computed: {
     typedTxt() {
       return ['websites', 'applications', 'user interfaces']
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";
+@import '../assets/styles';
 .vue-typer {
   display: block;
   @extend .h1;

@@ -24,12 +24,12 @@ export default {
   components: {
     Navigation,
     Particles,
-    FooterBar
+    FooterBar,
   },
 
   data() {
     return {
-      isNavOpen: false
+      isNavOpen: false,
     }
   },
 
@@ -43,7 +43,7 @@ export default {
      * Initialize Navigation Listener for toggling state of Burger, Navigation, app elements
      */
     initNavigationListener() {
-      this.$root.$on('toggle.navigation.state', isNaviOpen => {
+      this.$root.$on('toggle.navigation.state', (isNaviOpen) => {
         this.isNavOpen = !isNaviOpen
       })
     },
@@ -62,15 +62,15 @@ export default {
 
       // roboto.load().then(() => {
       Promise.all([roboto.load()]).then(
-        function() {
+        function () {
           document.documentElement.classList.add('roboto')
         },
-        function() {
+        function () {
           console.log('🍺')
         }
       )
-    }
-  }
+    },
+  },
 }
 </script>
 

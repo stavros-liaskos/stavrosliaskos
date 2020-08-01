@@ -15,22 +15,22 @@ export default {
   props: {
     index: {
       type: String,
-      required: true
+      required: true,
     },
     active: {
       type: String,
-      required: true
+      required: true,
     },
     linksIDs: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
 
   computed: {
     linkID() {
       return this.linksIDs[this.index - 1]
-    }
+    },
   },
 
   methods: {
@@ -39,13 +39,13 @@ export default {
      */
     activateDotNaviElem() {
       this.$emit('test', this.index)
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";// Dot elem variables
+@import '../assets/styles'; // Dot elem variables
 $dot_wrapper_width: 17px;
 $dot_wrapper_height: $dot_wrapper_width;
 $dot_el_color: $color_dark_grey;

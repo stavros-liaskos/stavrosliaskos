@@ -18,9 +18,9 @@
       does not include trusted third parties who assist in operating this
       website, so long as those parties agree to keep this information
       confidential (static host:
-      <a href="https://zeit.co/" rel="noreferrer">zeit.co</a>). No
-      personally identifiable visitor information may be provided to other
-      parties for marketing, advertising, or other uses.
+      <a href="https://zeit.co/" rel="noreferrer">zeit.co</a>). No personally
+      identifiable visitor information may be provided to other parties for
+      marketing, advertising, or other uses.
     </p>
 
     <h4>Terms and Conditions</h4>

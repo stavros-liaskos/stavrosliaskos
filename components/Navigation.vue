@@ -49,12 +49,12 @@ import NaviToolbar from './NaviToolbar.vue'
 
 export default {
   components: {
-    NaviToolbar
+    NaviToolbar,
   },
 
   data() {
     return {
-      isNavOpen: false
+      isNavOpen: false,
     }
   },
 
@@ -64,20 +64,21 @@ export default {
 
   methods: {
     initNavigationListener() {
-      this.$root.$on('toggle.navigation.state', isNaviOpen => {
+      this.$root.$on('toggle.navigation.state', (isNaviOpen) => {
         this.isNavOpen = !isNaviOpen
       })
     },
 
     toggleMenu() {
       this.$root.$emit('toggle.navigation.state', this.isNavOpen) // send event to index page to handle slide effect
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";$navi_slide_out_time: 0.8s;
+@import '../assets/styles';
+$navi_slide_out_time: 0.8s;
 
 .navigation {
   background: $color_black;

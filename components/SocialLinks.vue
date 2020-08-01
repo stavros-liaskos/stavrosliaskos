@@ -66,28 +66,28 @@ export default {
     IconBitbucket,
     IconCodepen,
     IconLinkedin,
-    IconXing
-  }
+    IconXing,
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";
+@import '../assets/styles';
 
 @include breakpoint($breakpoint_screen_md) {
-    .social-links {
-        li {
-            width: 30px;
-            svg {
-                animation: pulse-color 12s infinite alternate;
-                margin-bottom: $space_1;
-                cursor: pointer;
-                @include zoom(
-                  $navi_toolbar_initial_icons_size,
-                  $navi_toolbar_final_icons_size
-                );
-            }
-        }
+  .social-links {
+    li {
+      width: 30px;
+      svg {
+        animation: pulse-color 12s infinite alternate;
+        margin-bottom: $space_1;
+        cursor: pointer;
+        @include zoom(
+          $navi_toolbar_initial_icons_size,
+          $navi_toolbar_final_icons_size
+        );
+      }
     }
   }
+}
 </style>

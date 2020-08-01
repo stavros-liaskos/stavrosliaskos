@@ -16,15 +16,15 @@ import GoHome from '~/components/GoHome'
 
 export default {
   components: {
-    GoHome
+    GoHome,
   },
 
   props: {
     error: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 

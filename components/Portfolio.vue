@@ -7,7 +7,9 @@
 
     <div v-if="projectCards.length" class="project-cards-container">
       <project-card
-        v-for="(projectCard, index) in projectCards.filter(card => card.active)"
+        v-for="(projectCard, index) in projectCards.filter(
+          (card) => card.active
+        )"
         :key="index"
         :img-url="projectCard.imgUrl"
         :link="projectCard.link"
@@ -28,17 +30,18 @@ import projectCards from '~/assets/data/projectCards.json'
 export default {
   components: {
     HeadlineAnimated,
-    ProjectCard
+    ProjectCard,
   },
 
   data() {
     return projectCards
-  }
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.portfolio {
+@import '../assets/styles';
+.portfolio {
   .project-cards-container {
     display: flex;
     flex-wrap: wrap;

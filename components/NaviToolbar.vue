@@ -25,24 +25,24 @@ export default {
   components: {
     Logo,
     Burger,
-    SocialLinks
+    SocialLinks,
   },
 
   computed: {
     version() {
       return 'v' + pack.version
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";
-  .social-links-wrapper {
-    display: none;
-  }
+@import '../assets/styles';
+.social-links-wrapper {
+  display: none;
+}
 
-  .navi-toolbar {
+.navi-toolbar {
   position: fixed;
   top: 0;
   bottom: unset;

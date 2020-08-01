@@ -7,13 +7,13 @@
     <div class="footer-lower">
       <span class="text-light footer-item">© {{ dateYear }} Stavros Liaskos</span>
 
-      <nuxt-link class=" footer-item" to="/privacy-policy">
+      <nuxt-link class="footer-item" to="/privacy-policy">
         Privacy Policy
       </nuxt-link>
-      <nuxt-link class=" footer-item" to="/terms-and-conditions">
+      <nuxt-link class="footer-item" to="/terms-and-conditions">
         Terms and Conditions
       </nuxt-link>
-      <nuxt-link class=" footer-item" to="/sitemap.xml">
+      <nuxt-link class="footer-item" to="/sitemap.xml">
         Sitemap
       </nuxt-link>
     </div>
@@ -25,18 +25,19 @@ import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
   },
   data() {
     return {
-      dateYear: new Date().getFullYear()
+      dateYear: new Date().getFullYear(),
     }
-  }
+  },
 }
 </script>
 
 <style lang="scss">
-  @import "../assets/styles";.footer {
+@import '../assets/styles';
+.footer {
   min-height: unset !important; // unset it from .container
   height: $footer_height;
   position: relative;
