@@ -13,9 +13,9 @@
       <nuxt-link class="footer-item" to="/terms-and-conditions">
         Terms and Conditions
       </nuxt-link>
-      <nuxt-link class="footer-item" to="/sitemap.xml">
+      <a class="footer-item" href="/sitemap.xml">
         Sitemap
-      </nuxt-link>
+      </a>
     </div>
   </footer>
 </template>

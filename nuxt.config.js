@@ -146,7 +146,6 @@ module.exports = {
    ** Customize modules
    */
   modules: [
-    '@nuxtjs/sitemap',
     // load SASS file globally
     // https://github.com/nuxt/nuxt.js/issues/1092#issuecomment-336693839
     [
@@ -155,6 +154,7 @@ module.exports = {
         resources: './assets/styles.scss',
       },
     ],
+    '@nuxtjs/sitemap',
   ],
 
   /*
