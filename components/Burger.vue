@@ -19,7 +19,7 @@ export default {
   },
 
   mounted() {
-    this.$root.$on('toggle.navigation.state', () => {
+    this.$root.$on('toggle-navigation-state', () => {
       this.isHovered = false
       if (this.isNavOpen) {
         setTimeout(() => {
@@ -33,7 +33,7 @@ export default {
 
   methods: {
     clickHandler() {
-      this.$root.$emit('toggle.navigation.state', this.isNavOpen) // send event to index page to handle slide effect
+      this.$root.$emit('toggle-navigation-state', this.isNavOpen) // send event to index page to handle slide effect
     },
   },
 }

@@ -43,7 +43,7 @@ export default {
      * Initialize Navigation Listener for toggling state of Burger, Navigation, app elements
      */
     initNavigationListener() {
-      this.$root.$on('toggle.navigation.state', (isNaviOpen) => {
+      this.$root.$on('toggle-navigation-state', (isNaviOpen) => {
         this.isNavOpen = !isNaviOpen
       })
     },

@@ -64,13 +64,13 @@ export default {
 
   methods: {
     initNavigationListener() {
-      this.$root.$on('toggle.navigation.state', (isNaviOpen) => {
+      this.$root.$on('toggle-navigation-state', (isNaviOpen) => {
         this.isNavOpen = !isNaviOpen
       })
     },
 
     toggleMenu() {
-      this.$root.$emit('toggle.navigation.state', this.isNavOpen) // send event to index page to handle slide effect
+      this.$root.$emit('toggle-navigation-state', this.isNavOpen) // send event to index page to handle slide effect
     },
   },
 }
