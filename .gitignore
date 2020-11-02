@@ -76,3 +76,5 @@ dist
 
 # Webhint reports
 hint-report
+
+.vercel
