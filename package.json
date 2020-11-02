@@ -55,7 +55,7 @@
     "fontfaceobserver": "2.1.0",
     "glob-all": "3.2.1",
     "hint": "6.1.0",
-    "node-sass": "4.14.1",
+    "node-sass": "5.0.0",
     "nodemon": "2.0.6",
     "nuxt-sass-resources-loader": "2.0.5",
     "prettier": "2.1.2",
