@@ -51,7 +51,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-prettier": "3.4.0",
-    "eslint-plugin-vue": "7.9.0",
+    "eslint-plugin-vue": "8.4.0",
     "fontfaceobserver": "2.1.0",
     "glob-all": "3.2.1",
     "hint": "6.1.3",
