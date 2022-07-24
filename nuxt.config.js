@@ -14,7 +14,7 @@ const headTitle = 'Stavros Liaskos // Frontend Developer',
 
 module.exports = {
   telemetry: false,
-  mode: 'spa',
+  ssr: false,
 
   /*
    ** Headers of the page
