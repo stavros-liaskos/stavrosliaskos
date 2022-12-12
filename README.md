@@ -78,7 +78,17 @@ yarn deploy
 - future link
 - fix sitemap
 - add tsipiripo website
-- make it IE11 compatible
+- 
+- improve cards
+- add portfolio here: https://github.com/evavic44/portfolio-ideas
+- add a button around "Learn more about what I do": https://nuro.dev/ It's easier for the user to know where to click
+- check performance
+- update to latest version
+- add some interactions on hover
+- update content
+- text-shadow: 1px 1px 10px rgb(255 255 255 / 20%), 1px 1px 10px #ccc;
+- typer can be async loaded: https://github.com/straversi/Typer.js
+- replace static speed insights with link to real metrics because they change over time
 
 
 ## Pages
